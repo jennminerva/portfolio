@@ -104,12 +104,14 @@ p {
 	line-height: 150%;
 	text-align: left;
 	cursor: default;
-	font-size: 1.3rem;
+	font-size: 2.3rem;
+	font-family: 'Calluna', serif;
 }
 a, a:focus, a:visited, a:active {
-	font-family: 'FoundersGroteskMono';
+	font-family: 'FoundersGroteskMono', monospace;
 	text-decoration: none;
-  border-bottom: 1px solid #FFE3E2;
+  border-bottom: 3px solid #FFE3E2;
+  color: black;
 }
 strong {
 	font-weight: normal;
