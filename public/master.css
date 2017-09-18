@@ -1,5 +1,28 @@
 /* fonts */
 
+@font-face {
+	font-family: 'Calluna';
+	src: url('Calluna-Light.eot');
+	src: url('Calluna-Light.eot?#iefix') format('embedded-opentype'),
+		url('Calluna-Light.woff2') format('woff2'),
+		url('Calluna-Light.woff') format('woff'),
+		url('Calluna-Light.ttf') format('truetype'),
+		url('Calluna-Light.svg#Calluna-Light') format('svg');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'FoundersGroteskMono';
+	src: url('FoundersGroteskMono-Light.eot');
+	src: url('FoundersGroteskMono-Light.eot?#iefix') format('embedded-opentype'),
+		url('FoundersGroteskMono-Light.woff2') format('woff2'),
+		url('FoundersGroteskMono-Light.woff') format('woff'),
+		url('FoundersGroteskMono-Light.ttf') format('truetype'),
+		url('FoundersGroteskMono-Light.svg#FoundersGroteskMono-Light') format('svg');
+	font-weight: 300;
+	font-style: normal;
+}
 
 /* base */
 
