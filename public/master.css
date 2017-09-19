@@ -43,8 +43,8 @@ body {
   display: grid;
   grid-auto-columns: 10%;
   grid-auto-rows: 10%;
-  justify-items: center;
-  align-items: center;
+  justify-items: start;
+  align-items: start;
 }
 .hidden {
   display: none;
@@ -154,3 +154,4 @@ h1,h2,h3,h4,h5,h6 {
 .Italic {
 	font-style: italic;
 }
+
