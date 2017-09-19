@@ -40,6 +40,11 @@ body {
   overflow-y: auto;
   overflow-x: hidden;
   margin: 0;
+  display: grid;
+  grid-auto-columns: 10%;
+  grid-auto-rows: 10%;
+  justify-items: center;
+  align-items: center;
 }
 .hidden {
   display: none;
