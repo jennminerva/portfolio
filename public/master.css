@@ -6,7 +6,7 @@
   font-style: normal;
 }
 @font-face {
-  font-family: '_fonts/FoundersGroteskMono';
+  font-family: 'FoundersGroteskMono';
   src: url("_fonts/FoundersGroteskMono-Light.eot");
   src: url("_fonts/FoundersGroteskMono-Light.eot?#iefix") format('embedded-opentype'), url("_fonts/FoundersGroteskMono-Light.woff2") format('woff2'), url("_fonts/FoundersGroteskMono-Light.woff") format('woff'), url("_fonts/FoundersGroteskMono-Light.ttf") format('truetype'), url("_fonts/FoundersGroteskMono-Light.svg#FoundersGroteskMono-Light") format('svg');
   font-weight: 300;
@@ -62,12 +62,10 @@ h6 {
   cursor: default;
 }
 .HeadingSmall {
-  font-size: 1rem;
-  color: #ff3431;
+  font-size: 2.3rem;
   margin: 0 0 3rem 0;
   font-family: 'Calluna', serif;
   letter-spacing: 0.1rem;
-  text-transform: uppercase;
 }
 .HeadingLarge {
   width: 100%;
@@ -83,6 +81,12 @@ h6 {
 }
 .Italic {
   font-style: italic;
+}
+.MonospaceText {
+  font-family: 'FoundersGroteskMono', monospace;
+}
+.SmallText {
+  font-size: 1.5rem;
 }
 .mb0 {
   margin-bottom: 4px;
@@ -526,11 +530,6 @@ body {
   overflow-y: auto;
   overflow-x: hidden;
   margin: 0;
-  display: grid;
-  grid-auto-columns: 10%;
-  grid-auto-rows: 10%;
-  justify-items: start;
-  align-items: start;
 }
 .hidden {
   display: none;
