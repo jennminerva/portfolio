@@ -1,0 +1,30 @@
+{
+  "name": "iamnobird",
+  "version": "1.0.0",
+  "description": "personal portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jennminerva/iamnobird.git"
+  },
+  "author": "Jenn Minerva <jenn@jennminerva.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jennminerva/iamnobird/issues"
+  },
+  "homepage": "https://github.com/jennminerva/iamnobird#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-stylus": "^1.2.0",
+    "grunt-contrib-watch": "^1.0.0"
+  },
+  "scripts": {
+        "build": "grunt",
+        "test": "grunt test"
+    }
+}
