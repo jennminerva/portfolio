@@ -576,7 +576,7 @@ button:hover {
   margin: 0 auto;
 }
 .LeftBlockHalfWidth {
-  grid-column: 2/9;
+  grid-column: 3/9;
 }
 .RightBlockHalfWidth {
   grid-column: 11/20;
@@ -596,9 +596,6 @@ button:hover {
   grid-column: 7/20;
 }
 .Greeting {
-  grid-row: 13/67;
-}
-.ImgHolderJennybell {
   grid-row: 13/67;
 }
 .SmallHeader.RightBlockHalfWidth {
@@ -628,7 +625,7 @@ button:hover {
   background: #000;
 }
 .ImgHolderJennyBell {
-  height: 51rem;
+  height: 45rem;
   width: 36rem;
-  grid-row: 2/4;
+  grid-row: 15/67;
 }
