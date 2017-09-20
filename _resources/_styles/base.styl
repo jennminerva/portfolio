@@ -12,6 +12,11 @@ body {
   overflow-y: auto;
   overflow-x: hidden;
   margin: 0;
+  display: grid;
+  grid-auto-columns: 10%;
+  grid-auto-rows: 10%;
+  justify-items: start;
+  align-items: start;
 }
 .hidden {
   display: none;
@@ -20,21 +25,6 @@ body {
 img {
   max-width: 100%;
   height: auto;
-}
-#Welcome {
-  color: #ff3431;
-  position: relative;
-  display: flex;
-}
-.HeadingLarge {
-  width: 100%;
-}
-.HeadingLargeLogo {
-  width: 100%;
-}
-.Greeting {
-  margin: 5rem 0;
-  line-height: 175%;
 }
 button {
   background: transparent;
@@ -57,8 +47,15 @@ button:hover {
   -o-transition: background-color 200ms ease-out;
   transition: background-color 200ms ease-out;
 }
-
-// Galleries
-
-// footer
-
+.op50 {
+  opacity: .5;
+}
+.op30 {
+  opacity: .3;
+}
+.AlignRight {
+  text-align: right;
+}
+.AlignCenter {
+  margin: 0 auto;
+}
