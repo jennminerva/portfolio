@@ -88,31 +88,33 @@ button:hover {
 
 // Recent Projects
 
-.LeftBlockHalfWidth {
-  grid-column: 3 / 9;
-}
-.RightBlockHalfWidth {
-  grid-column: 11 / 20;
-}
-.LeftBlockTwoThirds {
-  grid-column: 2 / 14;
-}
-.RightBlockOneThird {
-  grid-column: 14 / 18;
-  width: 80%;
-}
-.LeftBlockOneThird {
-  grid-column: 2 / 6;
-  width: 80%
-}
-.RightBlockTwoThirds {
-  grid-column: 7 / 20;
-}
-.Intro {
-  grid-row: 13 / 67
+@media laptop {
+  .LeftBlockHalfWidth {
+    grid-column: 3 / 9;
+  }
+  .RightBlockHalfWidth {
+    grid-column: 11 / 20;
+  }
+  .LeftBlockTwoThirds {
+    grid-column: 2 / 14;
+  }
+  .RightBlockOneThird {
+    grid-column: 14 / 18;
+    width: 80%;
+  }
+  .LeftBlockOneThird {
+    grid-column: 2 / 6;
+    width: 80%
+  }
+  .RightBlockTwoThirds {
+    grid-column: 7 / 20;
+  }
+  .Intro {
+    grid-row: 13 / 67
+  }
 }
 .HeadingSmall.RightBlockHalfWidth {
-    margin: 2rem;
+    margin: 6rem 2rem;
   }
 @media latop {
   .HeadingSmall.RightBlockHalfWidth {
@@ -120,11 +122,11 @@ button:hover {
     grid-row: 76
   }
 }
+.DescProject {
+  margin: 4rem 2rem 6rem 2rem;
+}
 .ImgProject1 {
   grid-row: 96
-}
-.DescProject1 {
-  margin: 2rem;
 }
 @media laptop {
   .DescProject1 {
@@ -143,9 +145,6 @@ button:hover {
   padding: 2rem;
   background: #000;
 }
-.DescProject2 {
-  margin: 2rem;
-}
 @media laptop {
   .DescProject2 {
     grid-row: 197
@@ -154,9 +153,6 @@ button:hover {
 }
 .ImgProject3 {
   grid-row: 255
-}
-.DescProject3 {
-  margin: 2rem;
 }
 @media laptop { 
   .DescProject3 {
@@ -167,27 +163,43 @@ button:hover {
 
 // Footer
 
-.Divider {
-  height: 4px;
-  background: #FFE3E2;
-  width: 80rem;
-  // grid-row: 250;
-  grid-row: 337;
-  grid-column: 2;
-  margin-bottom: 7rem;
+@media laptop {
+  .Divider {
+    height: 4px;
+    background: #FFE3E2;
+    width: 80rem;
+    grid-row: 337;
+    grid-column: 2;
+    margin-bottom: 7rem;
+  }
 }
 .OffCenter {
-  grid-column: 5/11;
-  grid-row: 346;
-  line-height: 200%
+  margin: 2rem;
+}
+@media laptop {
+  .OffCenter {
+    grid-column: 5/11;
+    grid-row: 346;
+    line-height: 200%
+  }
 }
 .FooterHeading {
-  grid-row: 348;
-  grid-column: 2/5;
+  margin: 8rem 2rem 4rem 2rem;
+}
+@media laptop {
+  .FooterHeading {
+    grid-row: 348;
+    grid-column: 2/5;
+  }
 }
 .Contact {
-  grid-column: 14/20;
-  grid-row: 346;
+  margin: 6rem 2rem;
+}
+@media laptop {
+  .Contact {
+    grid-column: 14/20;
+    grid-row: 346;
+  }
 }
 .FooterSpace {
   height: 2rem;
