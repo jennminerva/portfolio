@@ -598,26 +598,26 @@ button:hover {
 .Greeting {
   grid-row: 13/67;
 }
-.SmallHeader.RightBlockHalfWidth {
-  grid-row: 2/4;
+.HeadingSmall.RightBlockHalfWidth {
+  grid-row: 76;
 }
 .ImgProject1 {
-  grid-row: 2/4;
+  grid-row: 96;
 }
 .DescProject1 {
-  grid-row: 2/4;
+  grid-row: 114;
 }
 .ImgProject2 {
-  grid-row: 2/4;
+  grid-row: 178;
 }
 .DescProject2 {
-  grid-row: 2/4;
+  grid-row: 197;
 }
 .ImgProject3 {
-  grid-row: 2/4;
+  grid-row: 255;
 }
 .DescProject3 {
-  grid-row: 2/4;
+  grid-row: 273;
 }
 .ImgHolder {
   height: 60rem;
