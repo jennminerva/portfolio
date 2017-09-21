@@ -1,11 +1,11 @@
 html {
 	font-size: 10px;
-	font-family: typeface-primary, serif;
+	font-family: 'Calluna', serif;
 }
 @media laptop {
 	html {
 		font-size: 11px;
-		color: --color-black
+		color: black
 	}
 }
 .unselectable {
@@ -17,11 +17,14 @@ p {
 	line-height: 150%;
 	text-align: left;
 	cursor: default;
-	font-size: 1.3rem;
+	font-size: 1.9rem;
+	font-family: 'Calluna', serif;
 }
 a, a:focus, a:visited, a:active {
+	font-family: 'FoundersGroteskMono', monospace;
 	text-decoration: none;
-  color: #FE6D6A;
+  border-bottom: 3px solid #FFE3E2;
+  color: black;
 }
 strong {
 	font-weight: normal;
@@ -37,12 +40,13 @@ h1,h2,h3,h4,h5,h6 {
 	cursor: default;
 }
 .HeadingSmall {
-	font-size: 1rem;
-	color: #ff3431;
+	font-size: 1.9rem;
 	margin: 0 0 3rem 0;
-	font-family: typeface-secondary;
+	font-family: 'Calluna', serif;
 	letter-spacing: .1rem;
-	text-transform: uppercase;
+}
+.HeadingLarge {
+	width: 100%;
 }
 .RedText {
 	color: #ff3431;
@@ -50,9 +54,12 @@ h1,h2,h3,h4,h5,h6 {
 .BoldText {
 	font-weight: bold;
 }
-.FontSize13 {
-	font-size: 1.3rem;
-}
-.Italic {
+.ItalicText {
 	font-style: italic;
+}
+.MonospaceText {
+	font-family: 'FoundersGroteskMono', monospace;
+}
+.SmallText {
+	font-size: 1.5rem;
 }

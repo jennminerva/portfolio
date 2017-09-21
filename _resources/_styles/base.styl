@@ -13,28 +13,27 @@ body {
   overflow-x: hidden;
   margin: 0;
 }
-.hidden {
+@media laptop {
+  body {
+    display: grid;
+    grid-auto-columns: 5%;
+    grid-auto-rows: 1rem;
+    justify-items: start;
+    align-items: start;
+    grid-column-gap: 1rem;
+  }
+}
+.Hidden {
   display: none;
   opacity: 0;
+}
+@media latop {
+  display: block;
+  opacity: 1;
 }
 img {
   max-width: 100%;
   height: auto;
-}
-#Welcome {
-  color: #ff3431;
-  position: relative;
-  display: flex;
-}
-.HeadingLarge {
-  width: 100%;
-}
-.HeadingLargeLogo {
-  width: 100%;
-}
-.Greeting {
-  margin: 5rem 0;
-  line-height: 175%;
 }
 button {
   background: transparent;
@@ -57,8 +56,190 @@ button:hover {
   -o-transition: background-color 200ms ease-out;
   transition: background-color 200ms ease-out;
 }
+.op50 {
+  opacity: .5;
+}
+.op30 {
+  opacity: .3;
+}
+.AlignRight {
+  text-align: right;
+}
+.AlignCenter {
+  margin: 0 auto;
+}
 
-// Galleries
+// Intro
 
-// footer
+.Intro {
+  padding: 2rem;
+}
+.OffsetEmoji {
+  position: relative;
+  top: 2px;
+}
+.ImgContainer {
+  background: #000;
+  width: 100%;
+  padding: 3rem;
+}
+
+@media laptop {
+  .IntroImg {
+    grid-row: 15 / 67;
+  }
+}
+
+// Recent Projects
+
+@media laptop {
+  .LeftBlockHalfWidth {
+    grid-column: 3 / 9;
+  }
+  .RightBlockHalfWidth {
+    grid-column: 11 / 20;
+  }
+  .LeftBlockTwoThirds {
+    grid-column: 2 / 14;
+  }
+  .RightBlockOneThird {
+    grid-column: 14 / 18;
+    width: 80%;
+  }
+  .LeftBlockOneThird {
+    grid-column: 2 / 6;
+    width: 80%
+  }
+  .RightBlockTwoThirds {
+    grid-column: 7 / 20;
+  }
+  .Intro {
+    grid-row: 13 / 67
+  }
+}
+.HeadingSmall.RightBlockHalfWidth {
+    margin: 6rem 2rem;
+  }
+@media latop {
+  .HeadingSmall.RightBlockHalfWidth {
+    margin: 0;
+    grid-row: 76
+  }
+}
+.DescProject {
+  margin: 4rem 2rem 6rem 2rem;
+}
+.ImgProject1 {
+  grid-row: 96
+}
+@media laptop {
+  .DescProject1 {
+    grid-row: 114
+    margin: 0;
+  }
+}
+.ImgProject2 {
+  grid-row: 178
+}
+.Width30 {
+  width: 26%;
+  margin: 1rem;
+}
+.ImgContainerProject2 {
+  padding: 2rem;
+  background: #000;
+}
+@media laptop {
+  .DescProject2 {
+    grid-row: 197
+    margin: 0;
+  }
+}
+.ImgProject3 {
+  grid-row: 255
+}
+@media laptop { 
+  .DescProject3 {
+    grid-row: 273
+    margin: 0;
+  }
+}
+
+// Footer
+
+// REMOVE
+
+.Divider {
+  height: 4px;
+  background: #FFE3E2;
+  margin: 4rem 2rem
+}
+@media laptop {
+  .Divider {
+    Display: none;
+    // height: 4px;
+    // background: #FFE3E2;
+    // width: 80rem;
+    // grid-row: 337;
+    // grid-column: 2;
+    // margin-bottom: 7rem;
+  }
+}
+.OffCenter {
+  margin: 2rem;
+}
+@media laptop {
+  .OffCenter {
+    grid-column: 5/11;
+    grid-row: 346;
+    line-height: 200%
+  }
+}
+// FooterHeading {
+//   margin: 8rem 2rem 4rem 2rem;
+// }
+.FooterHeading {
+  margin: 6rem 2rem 4rem 2rem;
+}
+@media laptop {
+  .FooterHeading {
+    grid-row: 348;
+    grid-column: 2/5;
+  }
+}
+// .Contact {
+//   margin: 6rem 2rem;
+// }
+.Contact {
+  margin: 4rem 2rem;
+}
+@media laptop {
+  .Contact {
+    grid-column: 14/20;
+    grid-row: 346;
+  }
+}
+.FooterSpace {
+  height: 2rem;
+  grid-row: 376;
+}
+.SmallEmoji {
+  font-size: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
