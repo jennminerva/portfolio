@@ -579,6 +579,14 @@ button:hover {
 .AlignCenter {
   margin: 0 auto;
 }
+.Intro {
+  padding: 2rem;
+}
+.ImgContainer {
+  background: #000;
+  width: 100%;
+  padding: 3rem;
+}
 @media (min-width: 62em) {
   .IntroImg {
     grid-row: 15/67;
@@ -619,6 +627,14 @@ button:hover {
 .ImgProject2 {
   grid-row: 178;
 }
+.Width30 {
+  width: 26%;
+  margin: 1rem;
+}
+.ImgContainerProject2 {
+  padding: 2rem;
+  background: #000;
+}
 .DescProject2 {
   grid-row: 197;
 }
@@ -627,11 +643,6 @@ button:hover {
 }
 .DescProject3 {
   grid-row: 273;
-}
-.ImgHolder {
-  height: 60rem;
-  width: 80rem;
-  background: #000;
 }
 .Divider {
   height: 4px;
