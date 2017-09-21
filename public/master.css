@@ -584,6 +584,10 @@ button:hover {
 .Intro {
   padding: 2rem;
 }
+.OffsetEmoji {
+  position: relative;
+  top: 2px;
+}
 .ImgContainer {
   background: #000;
   width: 100%;
