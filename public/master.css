@@ -586,7 +586,8 @@ button:hover {
 }
 .OffsetEmoji {
   position: relative;
-  top: 2px;
+}
+@media (min-width: 62em) {
 }
 .Divider {
   height: 4px;
