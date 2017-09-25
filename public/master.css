@@ -651,6 +651,8 @@ button:hover {
   width: 26%;
   margin: 1rem;
 }
+@media (min-width: 62em) {
+}
 .ImgContainerProject2 {
   padding: 2rem;
   background: #000;
