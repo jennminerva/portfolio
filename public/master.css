@@ -590,12 +590,16 @@ button:hover {
 }
 .ImgContainer {
   background: #000;
-  width: 100%;
   padding: 3rem;
 }
 @media (min-width: 62em) {
   .IntroImg {
-    grid-row: 15/67;
+    grid-column: 10/span 20;
+    background: url("_img/intro_img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 50vw;
   }
 }
 @media (min-width: 62em) {
@@ -603,18 +607,16 @@ button:hover {
     grid-column: 3/9;
   }
   .RightBlockHalfWidth {
-    grid-column: 11/20;
+    grid-column: 11/span 20;
   }
   .LeftBlockTwoThirds {
     grid-column: 2/14;
   }
   .RightBlockOneThird {
     grid-column: 14/18;
-    width: 80%;
   }
   .LeftBlockOneThird {
     grid-column: 2/6;
-    width: 80%;
   }
   .RightBlockTwoThirds {
     grid-column: 7/20;
@@ -626,7 +628,7 @@ button:hover {
 .HeadingSmall.RightBlockHalfWidth {
   margin: 6rem 2rem;
 }
-@media latop {
+@media (min-width: 62em) {
   .HeadingSmall.RightBlockHalfWidth {
     margin: 0;
     grid-row: 76;
@@ -644,9 +646,6 @@ button:hover {
     margin: 0;
   }
 }
-.ImgProject2 {
-  grid-row: 178;
-}
 .Width30 {
   width: 26%;
   margin: 1rem;
@@ -656,6 +655,7 @@ button:hover {
 .ImgContainerProject2 {
   padding: 2rem;
   background: #000;
+  grid-row: 178;
 }
 @media (min-width: 62em) {
   .DescProject2 {
