@@ -22,7 +22,6 @@
     "grunt-cli": "^1.2.0",
     "grunt-contrib-concat": "^1.0.1",
     "grunt-contrib-stylus": "^1.2.0",
-    "grunt-contrib-watch": "^1.0.0",
-    "stylint": "^1.5.9"
+    "grunt-contrib-watch": "^1.0.0"
   }
 }
