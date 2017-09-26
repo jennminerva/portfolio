@@ -2,11 +2,11 @@ html {
   min-height: 100%;
 }
 * {
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: #000;
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
   box-sizing: border-box;
-}
+  }
 body {
   height: 100%;
   overflow-y: auto;
@@ -14,7 +14,7 @@ body {
   margin: 0;
 }
 @media laptop {
-  body {
+  body { 
     display: grid;
     grid-auto-columns: 5%;
     grid-auto-rows: 1rem;
@@ -27,52 +27,45 @@ body {
   display: none;
   opacity: 0;
 }
-@media latop {
-  display: block;
-  opacity: 1;
-}
 img {
   max-width: 100%;
   height: auto;
 }
 button {
   background: transparent;
-  border: 1px solid #ff3431;
-  border-radius: 75px;
-  color: #ff3431;
+  border: 1px solid #000;
+  border-radius: 5px;
   height: 4rem;
   font-size: 1rem;
-  letter-spacing: .1em;
-  padding: 1rem 3rem;
-  text-transform: uppercase;
+  padding: 1rem;
   cursor: pointer;
-  font-family: typeface-secondary;
 }
 button:hover {
-  background: #ff3431
-  color: #ffe3e2;
+  background: #000;
+  color: #fff;
   -webkit-transition: background-color 200ms ease-out;
   -moz-transition: background-color 200ms ease-out;
   -o-transition: background-color 200ms ease-out;
   transition: background-color 200ms ease-out;
 }
-.op50 {
+.Op50 {
   opacity: .5;
 }
-.op30 {
+.Op30 {
   opacity: .3;
 }
 .AlignRight {
   text-align: right;
 }
 .AlignCenter {
-  margin: 0 auto;
+  text-align: center;
 }
 
 // Intro
 
 .Intro {
   padding: 2rem;
+  grid-row: 5 / 67;
 }
 .OffsetEmoji {
   position: relative;
@@ -82,9 +75,17 @@ button:hover {
   background: #000;
   padding: 3rem;
 }
+.IntroImg {
+  width: 100%;
+}
+@media laptop {
+    .IntroImg {
+    display: none;
+  }
+}
 
 @media laptop {
-  .IntroImg {
+  .IntroImgContainer {
     grid-column: 10 / span 20;
     background: url("_img/intro_img.jpg");
     background-repeat: no-repeat;
@@ -93,17 +94,18 @@ button:hover {
     width: 50vw;
   }
 }
+
 // Recent Projects
 
 @media laptop {
   .LeftBlockHalfWidth {
-    grid-column: 3 / 9;
+    grid-column: 2 / 9;
   }
   .RightBlockHalfWidth {
-  grid-column: 11 / span 20;
+    grid-column: 11 / 20;
   }
   .LeftBlockTwoThirds {
-    grid-column: 2 / 14;
+    grid-column: 11 / span 20;
   }
   .RightBlockOneThird {
     grid-column: 14 / 18;
@@ -114,28 +116,25 @@ button:hover {
   .RightBlockTwoThirds {
     grid-column: 7 / 20;
   }
-  .Intro {
-    grid-row: 13 / 67
-  }
 }
 .HeadingSmall.RightBlockHalfWidth {
-    margin: 6rem 2rem;
-  }
+  margin: 6rem 2rem;
+}
 @media laptop {
   .HeadingSmall.RightBlockHalfWidth {
     margin: 0;
-    grid-row: 76
+    grid-row: 76;
   }
 }
 .DescProject {
   margin: 4rem 2rem 6rem 2rem;
 }
 .ImgProject1 {
-  grid-row: 96
+  grid-row: 96;
 }
 @media laptop {
   .DescProject1 {
-    grid-row: 114
+    grid-row: 114;
     margin: 0;
   }
 }
@@ -150,27 +149,25 @@ button:hover {
 .ImgContainerProject2 {
   padding: 2rem;
   background: #000;
-  grid-row: 178
+  grid-row: 178;
 }
 @media laptop {
   .DescProject2 {
-    grid-row: 197
+    grid-row: 197;
     margin: 0;
   }
 }
 .ImgProject3 {
-  grid-row: 255
+  grid-row: 255;
 }
 @media laptop { 
   .DescProject3 {
-    grid-row: 273
+    grid-row: 273;
     margin: 0;
   }
 }
 
 // Footer
-
-// REMOVE
 
 .Divider {
   height: 4px;
@@ -193,9 +190,9 @@ button:hover {
 }
 @media laptop {
   .OffCenter {
-    grid-column: 5/11;
+    grid-column: 5 / 11;
     grid-row: 346;
-    line-height: 200%
+    line-height: 200%;
   }
 }
 
@@ -205,7 +202,7 @@ button:hover {
 @media laptop {
   .FooterHeading {
     grid-row: 348;
-    grid-column: 2/5;
+    grid-column: 2 / 5;
   }
 }
 .Contact {
@@ -213,7 +210,7 @@ button:hover {
 }
 @media laptop {
   .Contact {
-    grid-column: 14/20;
+    grid-column: 14 / 20;
     grid-row: 346;
   }
 }

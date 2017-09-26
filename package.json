@@ -4,7 +4,8 @@
   "description": "personal portfolio",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "grunt",
+    "test": "grunt test"
   },
   "repository": {
     "type": "git",
@@ -21,10 +22,7 @@
     "grunt-cli": "^1.2.0",
     "grunt-contrib-concat": "^1.0.1",
     "grunt-contrib-stylus": "^1.2.0",
-    "grunt-contrib-watch": "^1.0.0"
-  },
-  "scripts": {
-        "build": "grunt",
-        "test": "grunt test"
-    }
+    "grunt-contrib-watch": "^1.0.0",
+    "stylint": "^1.5.9"
+  }
 }
