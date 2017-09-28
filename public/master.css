@@ -646,9 +646,6 @@ button:hover {
     margin: 0;
   }
 }
-.Width30 {
-  margin: 2rem;
-}
 @media (min-width: 62em) {
 }
 .ImgContainerProject2 {
@@ -656,7 +653,11 @@ button:hover {
   background: #000;
   grid-row: 160;
   display: inline-flex;
+}
+.Project2Img {
+  margin: 2rem;
   justify-content: space-between;
+  background: #000;
 }
 @media (min-width: 62em) {
   .DescProject2 {
