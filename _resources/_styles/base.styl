@@ -66,6 +66,16 @@ button:hover {
   padding: 2rem;
   grid-row: 5 / 67;
 }
+@media laptop {
+  .Intro {
+    grid-row: 5/67;
+  }
+}
+@media desktop {
+  .Intro {
+    grid-row: 6/67;
+  }
+}
 .OffsetEmoji {
   position: relative;
   top: 2px;
@@ -95,7 +105,28 @@ button:hover {
 
 // Recent Projects
 
+
 @media laptop {
+  .LeftBlockHalfWidth {
+    grid-column: 2 / 10;
+  }
+  .RightBlockHalfWidth {
+    grid-column: 11 / 20;
+  }
+  .LeftBlockTwoThirds {
+    grid-column: 2 / 14;
+  }
+  .RightBlockOneThird {
+    grid-column: 15 / 20;
+  }
+  .LeftBlockOneThird {
+    grid-column: 1 / 5;
+  }
+  .RightBlockTwoThirds {
+    grid-column: 7 / 20;
+  }
+}
+@media desktop {
   .LeftBlockHalfWidth {
     grid-column: 2 / 9;
   }
@@ -106,7 +137,7 @@ button:hover {
     grid-column: 2 / 14;
   }
   .RightBlockOneThird {
-    grid-column: 16 / 19;
+    grid-column: 16 / 20;
   }
   .LeftBlockOneThird {
     grid-column: 2 / 5;
@@ -121,6 +152,12 @@ button:hover {
 @media laptop {
   .HeadingSmall.RightBlockHalfWidth {
     margin: 0;
+    grid-column: 11 / 20;
+  }
+}
+@media desktop {
+  .HeadingSmall.RightBlockHalfWidth {
+    margin: 0;
     grid-row: 87;
   }
 }
@@ -132,13 +169,15 @@ button:hover {
 }
 @media laptop {
   .DescProject1 {
-    grid-row: 121;
+    grid-row: 114;
     margin: 0;
   }
 }
-@media laptop {
-  width: 30%;
-  display: flex;
+@media desktop {
+  .DescProject1 {
+    grid-row: 121;
+    margin: 0;
+  }
 }
 .ImgContainerProject2 {
   padding: 4rem;
@@ -153,6 +192,12 @@ button:hover {
 }
 @media laptop {
   .DescProject2 {
+    grid-row: 183;
+    margin: 0;
+  }
+}
+@media desktop {
+  .DescProject2 {
     grid-row: 187;
     margin: 0;
   }
@@ -160,7 +205,13 @@ button:hover {
 .ImgProject3 {
   grid-row: 242;
 }
-@media laptop { 
+@media laptop {
+  .DescProject3 {
+    grid-row: 251;
+    margin: 0;
+  }
+}
+@media desktop { 
   .DescProject3 {
     grid-row: 257;
     margin: 0;
@@ -174,7 +225,12 @@ button:hover {
   background: #FFE3E2;
   margin: 0 2rem
 }
-@media laptop {
+@media phone {
+  .Divider {
+    margin: 0 5rem;
+  }
+}
+@media desktop {
   .Divider {
     width: 78rem;
     grid-row: 318;
@@ -185,7 +241,12 @@ button:hover {
 .OffCenter {
   margin: 2rem;
 }
-@media laptop {
+@media phone {
+  .OffCenter {
+    margin: 2rem 5rem;
+  }
+}
+@media desktop {
   .OffCenter {
     grid-column: 6 / 12;
     grid-row: 322;
@@ -195,7 +256,12 @@ button:hover {
 .FooterHeading {
   margin: 8rem 2rem 4rem 2rem;
 }
-@media laptop {
+@media phone {
+  .FooterHeading {
+    margin: 8rem 2rem 4rem 5rem;
+  }
+}
+@media desktop {
   .FooterHeading {
     grid-row: 325;
     grid-column: 2 / 5;
@@ -205,7 +271,12 @@ button:hover {
 .Contact {
   margin: 6rem 2rem;
 }
-@media laptop {
+@media phone {
+  .Contact {
+    margin: 6rem 5rem;
+  }
+}
+@media desktop {
   .Contact {
     grid-row: 324;
     margin: 0;

@@ -2,7 +2,7 @@ html {
 	font-size: 10px;
 	font-family: 'Calluna', serif;
 }
-@media laptop {
+@media desktop {
 	html {
 		font-size: 11px;
 		color: black
@@ -19,6 +19,17 @@ p {
 	cursor: default;
 	font-size: 1.9rem;
 	font-family: 'Calluna', serif;
+}
+@media phone {
+	p {
+		max-width: 500px;
+		margin: 2rem 2rem 2rem 4rem;
+	}
+}
+@media laptop {
+	p {
+		margin: 0;
+	}
 }
 a, a:focus, a:visited, a:active {
 	font-family: 'FoundersGroteskMono', monospace;
@@ -44,6 +55,16 @@ h1,h2,h3,h4,h5,h6 {
 	margin: 0 0 3rem 0;
 	font-family: 'Calluna', serif;
 	letter-spacing: .1rem;
+}
+@media phone {
+	.HeadingSmall {
+		margin: 0 0 4rem 4rem;
+	}
+}
+@media laptop {
+	.HeadingSmall {
+		margin: 0 0 3rem 0;
+	}
 }
 .HeadingLarge {
 	width: 100%;

@@ -16,7 +16,7 @@ html {
   font-size: 10px;
   font-family: 'Calluna', serif;
 }
-@media (min-width: 62em) {
+@media (min-width: 80em) {
   html {
     font-size: 11px;
     color: #000;
@@ -33,6 +33,17 @@ p {
   cursor: default;
   font-size: 1.9rem;
   font-family: 'Calluna', serif;
+}
+@media (min-width: 30em) {
+  p {
+    max-width: 500px;
+    margin: 2rem 2rem 2rem 4rem;
+  }
+}
+@media (min-width: 62em) {
+  p {
+    margin: 0;
+  }
 }
 a,
 a:focus,
@@ -66,6 +77,16 @@ h6 {
   margin: 0 0 3rem 0;
   font-family: 'Calluna', serif;
   letter-spacing: 0.1rem;
+}
+@media (min-width: 30em) {
+  .HeadingSmall {
+    margin: 0 0 4rem 4rem;
+  }
+}
+@media (min-width: 62em) {
+  .HeadingSmall {
+    margin: 0 0 3rem 0;
+  }
 }
 .HeadingLarge {
   width: 100%;
@@ -579,6 +600,16 @@ button:hover {
   padding: 2rem;
   grid-row: 5/67;
 }
+@media (min-width: 62em) {
+  .Intro {
+    grid-row: 5/67;
+  }
+}
+@media (min-width: 80em) {
+  .Intro {
+    grid-row: 6/67;
+  }
+}
 .OffsetEmoji {
   position: relative;
   top: 2px;
@@ -607,6 +638,26 @@ button:hover {
 }
 @media (min-width: 62em) {
   .LeftBlockHalfWidth {
+    grid-column: 2/10;
+  }
+  .RightBlockHalfWidth {
+    grid-column: 11/20;
+  }
+  .LeftBlockTwoThirds {
+    grid-column: 2/14;
+  }
+  .RightBlockOneThird {
+    grid-column: 15/20;
+  }
+  .LeftBlockOneThird {
+    grid-column: 1/5;
+  }
+  .RightBlockTwoThirds {
+    grid-column: 7/20;
+  }
+}
+@media (min-width: 80em) {
+  .LeftBlockHalfWidth {
     grid-column: 2/9;
   }
   .RightBlockHalfWidth {
@@ -616,7 +667,7 @@ button:hover {
     grid-column: 2/14;
   }
   .RightBlockOneThird {
-    grid-column: 16/19;
+    grid-column: 16/20;
   }
   .LeftBlockOneThird {
     grid-column: 2/5;
@@ -631,6 +682,12 @@ button:hover {
 @media (min-width: 62em) {
   .HeadingSmall.RightBlockHalfWidth {
     margin: 0;
+    grid-column: 11/20;
+  }
+}
+@media (min-width: 80em) {
+  .HeadingSmall.RightBlockHalfWidth {
+    margin: 0;
     grid-row: 87;
   }
 }
@@ -642,11 +699,15 @@ button:hover {
 }
 @media (min-width: 62em) {
   .DescProject1 {
-    grid-row: 121;
+    grid-row: 114;
     margin: 0;
   }
 }
-@media (min-width: 62em) {
+@media (min-width: 80em) {
+  .DescProject1 {
+    grid-row: 121;
+    margin: 0;
+  }
 }
 .ImgContainerProject2 {
   padding: 4rem;
@@ -661,6 +722,12 @@ button:hover {
 }
 @media (min-width: 62em) {
   .DescProject2 {
+    grid-row: 183;
+    margin: 0;
+  }
+}
+@media (min-width: 80em) {
+  .DescProject2 {
     grid-row: 187;
     margin: 0;
   }
@@ -669,6 +736,12 @@ button:hover {
   grid-row: 242;
 }
 @media (min-width: 62em) {
+  .DescProject3 {
+    grid-row: 251;
+    margin: 0;
+  }
+}
+@media (min-width: 80em) {
   .DescProject3 {
     grid-row: 257;
     margin: 0;
@@ -679,7 +752,12 @@ button:hover {
   background: #ffe3e2;
   margin: 0 2rem;
 }
-@media (min-width: 62em) {
+@media (min-width: 30em) {
+  .Divider {
+    margin: 0 5rem;
+  }
+}
+@media (min-width: 80em) {
   .Divider {
     width: 78rem;
     grid-row: 318;
@@ -690,7 +768,12 @@ button:hover {
 .OffCenter {
   margin: 2rem;
 }
-@media (min-width: 62em) {
+@media (min-width: 30em) {
+  .OffCenter {
+    margin: 2rem 5rem;
+  }
+}
+@media (min-width: 80em) {
   .OffCenter {
     grid-column: 6/12;
     grid-row: 322;
@@ -700,7 +783,12 @@ button:hover {
 .FooterHeading {
   margin: 8rem 2rem 4rem 2rem;
 }
-@media (min-width: 62em) {
+@media (min-width: 30em) {
+  .FooterHeading {
+    margin: 8rem 2rem 4rem 5rem;
+  }
+}
+@media (min-width: 80em) {
   .FooterHeading {
     grid-row: 325;
     grid-column: 2/5;
@@ -710,7 +798,12 @@ button:hover {
 .Contact {
   margin: 6rem 2rem;
 }
-@media (min-width: 62em) {
+@media (min-width: 30em) {
+  .Contact {
+    margin: 6rem 5rem;
+  }
+}
+@media (min-width: 80em) {
   .Contact {
     grid-row: 324;
     margin: 0;
