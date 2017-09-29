@@ -616,7 +616,13 @@ button:hover {
 }
 .ImgContainer {
   background: #000;
-  padding: 6rem;
+  padding: 3rem;
+}
+@media (min-width: 62em) {
+  .ImgContainer {
+    background: #000;
+    padding: 6rem;
+  }
 }
 .IntroImg {
   width: 100%;
@@ -710,10 +716,15 @@ button:hover {
   }
 }
 .ImgContainerProject2 {
-  padding: 4rem;
+  padding: 1rem;
   background: #000;
   grid-row: 175;
   display: inline-flex;
+}
+@media (min-width: 48em) {
+  .ImgContainerProject2 {
+    padding: 4rem;
+  }
 }
 .ImgProject2 {
   margin: 2rem;
@@ -746,6 +757,13 @@ button:hover {
     grid-row: 257;
     margin: 0;
   }
+}
+.FlexLinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+@media (min-width: 62em) {
 }
 .Divider {
   height: 4px;
