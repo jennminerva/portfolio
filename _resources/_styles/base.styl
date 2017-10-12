@@ -14,7 +14,7 @@ body {
   margin: 0;
 }
 @media laptop {
-  body { 
+  body {
     display: grid;
     grid-auto-columns: 5%;
     grid-auto-rows: 1rem;
@@ -22,6 +22,8 @@ body {
     align-items: start;
   }
 }
+// NOTE: Why isn't this in your file for utilities?
+
 .Hidden {
   display: none;
   opacity: 0;
@@ -42,11 +44,15 @@ button {
 button:hover {
   background: #000;
   color: #fff;
+  // NOTE: Look into auto prefixing. You shouldn't have to write each out manually.
   -webkit-transition: background-color 200ms ease-out;
   -moz-transition: background-color 200ms ease-out;
   -o-transition: background-color 200ms ease-out;
   transition: background-color 200ms ease-out;
 }
+
+// NOTE: Why aren't these in your file for utilities?
+
 .Op50 {
   opacity: .5;
 }
@@ -93,6 +99,7 @@ button:hover {
 .IntroImg {
   width: 100%;
 }
+// NOTE: indentation!
 @media laptop {
     .IntroImg {
     display: none;
@@ -111,7 +118,7 @@ button:hover {
 
 // Recent Projects
 
-
+// NOTE:  consider putting these in a "grid" file since they're usable beyond "projects". also, uneeded extra space
 @media laptop {
   .LeftBlockHalfWidth {
     grid-column: 2 / 10;
@@ -173,6 +180,7 @@ button:hover {
 .ImgProject1 {
   grid-row: 105;
 }
+// NOTE: Can you be less duplicative with classes here?
 @media laptop {
   .DescProject1 {
     grid-row: 114;
@@ -222,7 +230,7 @@ button:hover {
     margin: 0;
   }
 }
-@media desktop { 
+@media desktop {
   .DescProject3 {
     grid-row: 257;
     margin: 0;
@@ -271,6 +279,7 @@ button:hover {
     line-height: 200%;
   }
 }
+// NOTE: Consider a "footer" styl file
 .FooterHeading {
   margin: 8rem 2rem 4rem 2rem;
 }
@@ -307,20 +316,3 @@ button:hover {
 .SmallEmoji {
   font-size: 1rem;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

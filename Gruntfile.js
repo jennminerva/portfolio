@@ -1,3 +1,7 @@
+// NOTE: If you're not going to use any JS, remove it from this file and the repo. Don't keep stuff that you won't use
+
+// NOTE: You're not using stylus specific syntax anywhere. Consider using a pure css complier and using .css files.
+
 module.exports = function(grunt) {
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
