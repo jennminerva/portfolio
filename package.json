@@ -2,10 +2,8 @@
   "name": "iamnobird",
   "version": "1.0.0",
   "description": "personal portfolio",
-  "main": "index.js",
   "scripts": {
     "build": "grunt",
-    "test": "grunt test"
   },
   "repository": {
     "type": "git",
