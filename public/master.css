@@ -793,7 +793,7 @@ button:hover {
 }
 @media (min-width: 80em) {
   .OffCenter {
-    grid-column: 6/12;
+    grid-column: 6/15;
     grid-row: 322;
     line-height: 200%;
   }
