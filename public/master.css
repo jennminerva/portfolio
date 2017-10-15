@@ -621,10 +621,10 @@ button:hover {
 .IntroImgs:hover {
   transform: scale(1.03);
 }
-@media (min-width: 62em) {
-  .IntroImg {
-    display: none;
-  }
+.IntroImgContainer {
+  grid-column: 11/span 20;
+  grid-row: 1/75;
+  width: 71rem;
 }
 @media (min-width: 62em) {
   .LeftBlockHalfWidth {
