@@ -2,8 +2,9 @@
   "name": "iamnobird",
   "version": "1.0.0",
   "description": "personal portfolio",
+  "main": "index.js",
   "scripts": {
-    "build": "grunt",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -21,5 +22,9 @@
     "grunt-contrib-concat": "^1.0.1",
     "grunt-contrib-stylus": "^1.2.0",
     "grunt-contrib-watch": "^1.0.0"
-  }
+  },
+  "scripts": {
+        "build": "grunt",
+        "test": "grunt test"
+    }
 }
