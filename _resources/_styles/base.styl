@@ -48,6 +48,9 @@ button:hover {
 .Intro {
   padding: 2rem;
   grid-row: 5 / 67;
+  -webkit-animation-delay: 0.2s;
+  -moz-animation-delay: 0.2s;
+  animation-delay: 0.2s;
 }
 @media laptop {
   .Intro {
@@ -63,16 +66,6 @@ button:hover {
   position: relative;
   top: 2px;
 }
-.ImgContainer {
-  background: #000;
-  padding: 3rem;
-}
-@media laptop {
-  .ImgContainer {
-  background: #000;
-  padding: 6rem;
-  }
-}
 .IntroImgs {
   width: 100%;
   padding-bottom: 100%;
@@ -84,9 +77,27 @@ button:hover {
   transform: scale(1.03);
 }
 .IntroImgContainer {
-  grid-column: 11 / span 20;
+  grid-column: 10 / span 20;
   grid-row: 1 / 75;
-  width: 71rem;
+  width: 100%; 
+  -webkit-animation-delay: 0.2s;
+  -moz-animation-delay: 0.2s;
+  animation-delay: 0.2s; 
+}
+@media tablet {
+  .IntroImgContainer {
+    width: 55%;
+  }
+}
+.ImgContainer {
+  background: #000;
+  padding: 3rem;
+}
+@media laptop {
+  .ImgContainer {
+  background: #000;
+  padding: 6rem;
+  }
 }
 
 

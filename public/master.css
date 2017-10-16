@@ -539,6 +539,66 @@ h6 {
 .Centered {
   margin: 0 auto;
 }
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-moz-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.FadeIn {
+  opacity: 0;
+  -webkit-animation: fadeIn ease-in 1;
+  -moz-animation: fadeIn ease-in 1;
+  animation: fadeIn ease-in 1;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  animation-duration: 1s;
+}
+@-moz-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-o-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 html {
   min-height: 100%;
 }
@@ -586,6 +646,9 @@ button:hover {
 .Intro {
   padding: 2rem;
   grid-row: 5/67;
+  -webkit-animation-delay: 0.2s;
+  -moz-animation-delay: 0.2s;
+  animation-delay: 0.2s;
 }
 @media (min-width: 62em) {
   .Intro {
@@ -601,16 +664,6 @@ button:hover {
   position: relative;
   top: 2px;
 }
-.ImgContainer {
-  background: #000;
-  padding: 3rem;
-}
-@media (min-width: 62em) {
-  .ImgContainer {
-    background: #000;
-    padding: 6rem;
-  }
-}
 .IntroImgs {
   width: 100%;
   padding-bottom: 100%;
@@ -622,9 +675,27 @@ button:hover {
   transform: scale(1.03);
 }
 .IntroImgContainer {
-  grid-column: 11/span 20;
+  grid-column: 10/span 20;
   grid-row: 1/75;
-  width: 71rem;
+  width: 100%;
+  -webkit-animation-delay: 0.2s;
+  -moz-animation-delay: 0.2s;
+  animation-delay: 0.2s;
+}
+@media (min-width: 48em) {
+  .IntroImgContainer {
+    width: 55%;
+  }
+}
+.ImgContainer {
+  background: #000;
+  padding: 3rem;
+}
+@media (min-width: 62em) {
+  .ImgContainer {
+    background: #000;
+    padding: 6rem;
+  }
 }
 @media (min-width: 62em) {
   .LeftBlockHalfWidth {
