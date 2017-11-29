@@ -5,13 +5,13 @@ null==d?void 0:d))},attrHooks:{type:{set:function(a,b){if(!o.radioValue&&"radio"
 
 // make an array of each url
 var images = [
-  '_img/1.jpeg',
-  '_img/2.jpeg',
-  '_img/3.jpeg',
-  '_img/4.jpeg',
-  '_img/5.jpeg',
-  '_img/6.jpeg',
-  '_img/7.JPG'
+  '_img/Smiling1.jpg',
+  '_img/BigEyes2.jpg',
+  '_img/ClosedEyes3.jpg',
+  '_img/Singing4.jpg',
+  '_img/SingingFist5.jpg',
+  '_img/HandsChin6.jpg',
+  '_img/Laughing7.jpg'
 ]
 $( document ).ready(function() {
   // set a counter to zero
