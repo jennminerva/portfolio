@@ -11,7 +11,6 @@ var images = [
 $( document ).ready(function() {
   // set a counter to zero
   var counter = 0;
-  console.log(counter);
   // make function to set the bg image
   function renderImage() {
     $('.IntroImgs').css(
@@ -22,10 +21,8 @@ $( document ).ready(function() {
   $('.IntroImgs').click(function() {
     if (counter < (images.length - 1) ) {
       counter = counter + 1;
-      console.log(counter);
     } else {
       counter = 0;
-      console.log(counter);
     };
     renderImage();
   });
