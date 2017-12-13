@@ -48,6 +48,26 @@
     grid-column: 7 / 20;
   }
 }
+@media bigscreen {
+  .LeftBlockHalfWidth {
+    grid-column: 2 / 9;
+  }
+  .RightBlockHalfWidth {
+    grid-column: 11 / 20;
+  }
+  .LeftBlockTwoThirds {
+    grid-column: 2 / 14;
+  }
+  .RightBlockOneThird {
+    grid-column: 15 / 20;
+  }
+  .LeftBlockOneThird {
+    grid-column: 2 / 5;
+  }
+  .RightBlockTwoThirds {
+    grid-column: 7 / 20;
+  }
+}
 .HeadingSmall.RightBlockHalfWidth {
   margin: 6rem 2rem;
 }
@@ -63,11 +83,22 @@
     grid-row: 87;
   }
 }
+@media bigscreen {
+  .HeadingSmall.RightBlockHalfWidth {
+    margin: 0;
+    grid-row: 20;
+  }
+}
 .DescProject {
   margin: 4rem 2rem 6rem 2rem;
 }
 .ImgProject1 {
   grid-row: 105;
+}
+@media bigscreen {
+  .ImgProject1 {
+    grid-row: 42;
+}
 }
 @media laptop {
   .DescProject1 {
@@ -81,6 +112,12 @@
     margin: 0;
   }
 }
+@media bigscreen {
+  .DescProject1 {
+    grid-row: 72;
+    margin: 0;
+  }
+}
 .ImgContainerProject2 {
   padding: 1rem;
   background: #000;
@@ -89,7 +126,12 @@
 }
 @media tablet {
   .ImgContainerProject2 {
-  padding: 4rem;
+    padding: 4rem;
+  }
+}
+@media bigscreen {
+  .ImgContainerProject2 {
+    grid-row: 146;
   }
 }
 .ImgProject2 {
@@ -112,6 +154,11 @@
 .ImgProject3 {
   grid-row: 242;
 }
+@media bigscreen {
+  .ImgProject3 {
+    grid-row: 269;
+  }
+}
 @media laptop {
   .DescProject3 {
     grid-row: 251;
@@ -122,6 +169,11 @@
   .DescProject3 {
     grid-row: 257;
     margin: 0;
+  }
+}
+@media bigscreen { 
+  .DescProject3 {
+    grid-row: 290;
   }
 }
 .FlexLinks {

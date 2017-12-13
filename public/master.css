@@ -45,6 +45,11 @@ p {
     margin: 0;
   }
 }
+@media (min-width: 94em) {
+  p {
+    max-width: 100%;
+  }
+}
 a,
 a:focus,
 a:visited,
@@ -257,6 +262,13 @@ button:hover {
     padding: 6rem 0 0 6rem;
   }
 }
+@media (min-width: 94em) {
+  .IntroText {
+    padding: 12rem 0 0 12rem;
+    font-size: 3rem;
+    width: 36%;
+  }
+}
 .OffsetEmoji {
   position: relative;
   top: 2px;
@@ -281,6 +293,11 @@ button:hover {
 @media (min-width: 48em) {
   .IntroImgContainer {
     width: 55%;
+  }
+}
+@media (min-width: 94em) {
+  .IntroImgContainer {
+    width: 57%;
   }
 }
 .ImgContainer {
@@ -343,6 +360,26 @@ button:hover {
     grid-column: 7/20;
   }
 }
+@media (min-width: 94em) {
+  .LeftBlockHalfWidth {
+    grid-column: 2/9;
+  }
+  .RightBlockHalfWidth {
+    grid-column: 11/20;
+  }
+  .LeftBlockTwoThirds {
+    grid-column: 2/14;
+  }
+  .RightBlockOneThird {
+    grid-column: 15/20;
+  }
+  .LeftBlockOneThird {
+    grid-column: 2/5;
+  }
+  .RightBlockTwoThirds {
+    grid-column: 7/20;
+  }
+}
 .HeadingSmall.RightBlockHalfWidth {
   margin: 6rem 2rem;
 }
@@ -358,11 +395,22 @@ button:hover {
     grid-row: 87;
   }
 }
+@media (min-width: 94em) {
+  .HeadingSmall.RightBlockHalfWidth {
+    margin: 0;
+    grid-row: 20;
+  }
+}
 .DescProject {
   margin: 4rem 2rem 6rem 2rem;
 }
 .ImgProject1 {
   grid-row: 105;
+}
+@media (min-width: 94em) {
+  .ImgProject1 {
+    grid-row: 42;
+  }
 }
 @media (min-width: 62em) {
   .DescProject1 {
@@ -376,6 +424,12 @@ button:hover {
     margin: 0;
   }
 }
+@media (min-width: 94em) {
+  .DescProject1 {
+    grid-row: 72;
+    margin: 0;
+  }
+}
 .ImgContainerProject2 {
   padding: 1rem;
   background: #000;
@@ -385,6 +439,11 @@ button:hover {
 @media (min-width: 48em) {
   .ImgContainerProject2 {
     padding: 4rem;
+  }
+}
+@media (min-width: 94em) {
+  .ImgContainerProject2 {
+    grid-row: 146;
   }
 }
 .ImgProject2 {
@@ -407,6 +466,11 @@ button:hover {
 .ImgProject3 {
   grid-row: 242;
 }
+@media (min-width: 94em) {
+  .ImgProject3 {
+    grid-row: 269;
+  }
+}
 @media (min-width: 62em) {
   .DescProject3 {
     grid-row: 251;
@@ -417,6 +481,11 @@ button:hover {
   .DescProject3 {
     grid-row: 257;
     margin: 0;
+  }
+}
+@media (min-width: 94em) {
+  .DescProject3 {
+    grid-row: 290;
   }
 }
 .FlexLinks {
@@ -444,6 +513,13 @@ button:hover {
     margin: 0 0 7rem 0;
   }
 }
+@media (min-width: 94em) {
+  .Divider {
+    width: 104rem;
+    grid-row: 373;
+    margin: 0 0 7rem 0;
+  }
+}
 .OffCenter {
   margin: 2rem;
 }
@@ -456,6 +532,13 @@ button:hover {
   .OffCenter {
     grid-column: 6/15;
     grid-row: 322;
+    line-height: 200%;
+  }
+}
+@media (min-width: 94em) {
+  .OffCenter {
+    grid-column: 5/11;
+    grid-row: 381;
     line-height: 200%;
   }
 }
@@ -474,6 +557,13 @@ button:hover {
     margin: 0;
   }
 }
+@media (min-width: 94em) {
+  .FooterHeading {
+    grid-row: 384;
+    grid-column: 2/5;
+    margin: 0;
+  }
+}
 .Contact {
   margin: 6rem 2rem;
 }
@@ -488,9 +578,21 @@ button:hover {
     margin: 0;
   }
 }
+@media (min-width: 94em) {
+  .Contact {
+    grid-row: 383;
+    margin: 0;
+  }
+}
 .FooterSpace {
   height: 2rem;
   grid-row: 352;
+}
+@media (min-width: 94em) {
+  .FooterSpace {
+    height: 2rem;
+    grid-row: 415;
+  }
 }
 .SmallEmoji {
   font-size: 1rem;
