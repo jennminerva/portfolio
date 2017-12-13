@@ -36,21 +36,21 @@ button:hover {
 
 // Intro
 
-.Intro {
+@media laptop {
+  .IntroContainer {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.IntroText {
   padding: 2rem;
-  grid-row: 5 / 67;
   -webkit-animation-delay: 0.2s;
   -moz-animation-delay: 0.2s;
   animation-delay: 0.2s;
 }
 @media laptop {
-  .Intro {
-    grid-row: 5/67;
-  }
-}
-@media desktop {
-  .Intro {
-    grid-row: 6/67;
+  .IntroText {
+    padding: 6rem 0 0 6rem;
   }
 }
 .OffsetEmoji {
@@ -68,8 +68,6 @@ button:hover {
   transform: scale(1.03);
 }
 .IntroImgContainer {
-  grid-column: 10 / span 20;
-  grid-row: 1 / 75;
   width: 100%; 
   -webkit-animation-delay: 0.2s;
   -moz-animation-delay: 0.2s;

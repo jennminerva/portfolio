@@ -240,21 +240,21 @@ button:hover {
   -o-transition: background-color 200ms ease-out;
   transition: background-color 200ms ease-out;
 }
-.Intro {
+@media (min-width: 62em) {
+  .IntroContainer {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.IntroText {
   padding: 2rem;
-  grid-row: 5/67;
   -webkit-animation-delay: 0.2s;
   -moz-animation-delay: 0.2s;
   animation-delay: 0.2s;
 }
 @media (min-width: 62em) {
-  .Intro {
-    grid-row: 5/67;
-  }
-}
-@media (min-width: 80em) {
-  .Intro {
-    grid-row: 6/67;
+  .IntroText {
+    padding: 6rem 0 0 6rem;
   }
 }
 .OffsetEmoji {
@@ -272,8 +272,6 @@ button:hover {
   transform: scale(1.03);
 }
 .IntroImgContainer {
-  grid-column: 10/span 20;
-  grid-row: 1/75;
   width: 100%;
   -webkit-animation-delay: 0.2s;
   -moz-animation-delay: 0.2s;
@@ -296,8 +294,9 @@ button:hover {
   }
 }
 @media (min-width: 62em) {
-  body {
+  .Grid {
     display: grid;
+    width: 100%;
     grid-auto-columns: 5%;
     grid-auto-rows: 1rem;
     justify-items: start;
