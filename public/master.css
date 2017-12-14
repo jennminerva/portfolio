@@ -392,7 +392,7 @@ button:hover {
 @media (min-width: 80em) {
   .HeadingSmall.RightBlockHalfWidth {
     margin: 0;
-    grid-row: 87;
+    grid-row: 17;
   }
 }
 @media (min-width: 94em) {
@@ -405,7 +405,7 @@ button:hover {
   margin: 4rem 2rem 6rem 2rem;
 }
 .ImgProject1 {
-  grid-row: 105;
+  grid-row: 35;
 }
 @media (min-width: 94em) {
   .ImgProject1 {
@@ -420,7 +420,7 @@ button:hover {
 }
 @media (min-width: 80em) {
   .DescProject1 {
-    grid-row: 121;
+    grid-row: 51;
     margin: 0;
   }
 }
@@ -433,7 +433,7 @@ button:hover {
 .ImgContainerProject2 {
   padding: 1rem;
   background: #000;
-  grid-row: 175;
+  grid-row: 105;
   display: inline-flex;
 }
 @media (min-width: 48em) {
@@ -453,18 +453,18 @@ button:hover {
 }
 @media (min-width: 62em) {
   .DescProject2 {
-    grid-row: 183;
+    grid-row: 113;
     margin: 0;
   }
 }
 @media (min-width: 80em) {
   .DescProject2 {
-    grid-row: 187;
+    grid-row: 117;
     margin: 0;
   }
 }
 .ImgProject3 {
-  grid-row: 242;
+  grid-row: 172;
 }
 @media (min-width: 94em) {
   .ImgProject3 {
@@ -473,13 +473,13 @@ button:hover {
 }
 @media (min-width: 62em) {
   .DescProject3 {
-    grid-row: 251;
+    grid-row: 187;
     margin: 0;
   }
 }
 @media (min-width: 80em) {
   .DescProject3 {
-    grid-row: 257;
+    grid-row: 187;
     margin: 0;
   }
 }
@@ -508,7 +508,7 @@ button:hover {
 @media (min-width: 80em) {
   .Divider {
     width: 78rem;
-    grid-row: 318;
+    grid-row: 246;
     grid-column: 2;
     margin: 0 0 7rem 0;
   }
@@ -531,7 +531,7 @@ button:hover {
 @media (min-width: 80em) {
   .OffCenter {
     grid-column: 6/15;
-    grid-row: 322;
+    grid-row: 253;
     line-height: 200%;
   }
 }
@@ -552,7 +552,7 @@ button:hover {
 }
 @media (min-width: 80em) {
   .FooterHeading {
-    grid-row: 325;
+    grid-row: 255;
     grid-column: 2/5;
     margin: 0;
   }
@@ -574,8 +574,9 @@ button:hover {
 }
 @media (min-width: 80em) {
   .Contact {
-    grid-row: 324;
+    grid-row: 255;
     margin: 0;
+    padding: 0.5rem 0 0 0;
   }
 }
 @media (min-width: 94em) {
@@ -586,7 +587,7 @@ button:hover {
 }
 .FooterSpace {
   height: 2rem;
-  grid-row: 352;
+  grid-row: 279;
 }
 @media (min-width: 94em) {
   .FooterSpace {
