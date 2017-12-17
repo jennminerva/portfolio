@@ -311,9 +311,11 @@ button:hover {
     padding: 6rem;
   }
 }
-.ImgResized {
-  height: auto;
-  width: 56vw;
+@media bigscrean {
+  .ImgResized {
+    height: auto;
+    width: 56vw;
+  }
 }
 @media (min-width: 62em) {
   .Grid {
