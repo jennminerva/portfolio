@@ -265,7 +265,7 @@ button:hover {
 @media (min-width: 94em) {
   .IntroText {
     padding: 12rem 0 0 12rem;
-    font-size: 3rem;
+    font-size: 4rem;
     width: 36%;
   }
 }
@@ -312,7 +312,7 @@ button:hover {
 }
 .ImgResized {
   height: auto;
-  width: 50vw;
+  width: 56vw;
 }
 @media (min-width: 62em) {
   .Grid {
@@ -375,7 +375,7 @@ button:hover {
     grid-column: 2/14;
   }
   .RightBlockOneThird {
-    grid-column: 15/20;
+    grid-column: 16/20;
   }
   .LeftBlockOneThird {
     grid-column: 2/5;
@@ -430,7 +430,7 @@ button:hover {
 }
 @media (min-width: 94em) {
   .DescProject1 {
-    grid-row: 72;
+    grid-row: 82;
     margin: 0;
   }
 }
@@ -447,7 +447,7 @@ button:hover {
 }
 @media (min-width: 94em) {
   .ImgContainerProject2 {
-    grid-row: 157;
+    grid-row: 166;
   }
 }
 .ImgProject2 {
@@ -469,7 +469,7 @@ button:hover {
 }
 @media (min-width: 94em) {
   .DescProject2 {
-    grid-row: 178;
+    grid-row: 202;
     margin: 0;
   }
 }
@@ -478,7 +478,7 @@ button:hover {
 }
 @media (min-width: 94em) {
   .ImgProject3 {
-    grid-row: 271;
+    grid-row: 281;
   }
 }
 @media (min-width: 62em) {
@@ -495,7 +495,7 @@ button:hover {
 }
 @media (min-width: 94em) {
   .DescProject3 {
-    grid-row: 290;
+    grid-row: 320;
   }
 }
 .FlexLinks {
@@ -525,8 +525,8 @@ button:hover {
 }
 @media (min-width: 94em) {
   .Divider {
-    width: 143rem;
-    grid-row: 385;
+    width: 60vw;
+    grid-row: 409;
     margin: 0 0 7rem 0;
   }
 }
@@ -548,7 +548,7 @@ button:hover {
 @media (min-width: 94em) {
   .OffCenter {
     grid-column: 5/11;
-    grid-row: 392;
+    grid-row: 416;
     line-height: 200%;
   }
 }
@@ -569,7 +569,7 @@ button:hover {
 }
 @media (min-width: 94em) {
   .FooterHeading {
-    grid-row: 395;
+    grid-row: 419;
     grid-column: 2/5;
     margin: 0;
   }
@@ -591,7 +591,7 @@ button:hover {
 }
 @media (min-width: 94em) {
   .Contact {
-    grid-row: 393;
+    grid-row: 417;
     margin: 0;
   }
 }
@@ -602,7 +602,7 @@ button:hover {
 @media (min-width: 94em) {
   .FooterSpace {
     height: 2rem;
-    grid-row: 415;
+    grid-row: 436;
   }
 }
 .SmallEmoji {
