@@ -27,8 +27,8 @@ $( document ).ready(function() {
     renderImage();
   });
 
-  for (i = 0; i < images.length; i++) { 
-    $('.Hidden').append( 
+  for (i = 0; i < images.length; i++) {
+    $('.Hidden').append(
       '<img src="' + images[i] + '"/>'
     );
   }

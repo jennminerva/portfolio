@@ -310,6 +310,10 @@ button:hover {
     padding: 6rem;
   }
 }
+.ImgResized {
+  height: auto;
+  width: 50vw;
+}
 @media (min-width: 62em) {
   .Grid {
     display: grid;
@@ -460,6 +464,12 @@ button:hover {
 @media (min-width: 80em) {
   .DescProject2 {
     grid-row: 117;
+    margin: 0;
+  }
+}
+@media (min-width: 94em) {
+  .DescProject2 {
+    grid-row: 178;
     margin: 0;
   }
 }
