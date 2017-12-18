@@ -36,18 +36,13 @@ p {
 }
 @media (min-width: 30em) {
   p {
-    max-width: 500px;
     margin: 2rem 2rem 2rem 4rem;
   }
 }
 @media (min-width: 62em) {
   p {
     margin: 0;
-  }
-}
-@media (min-width: 94em) {
-  p {
-    max-width: 100%;
+    max-width: 39vw;
   }
 }
 a,
@@ -253,19 +248,26 @@ button:hover {
 }
 .IntroText {
   padding: 2rem;
+  margin: 3rem;
   -webkit-animation-delay: 0.2s;
   -moz-animation-delay: 0.2s;
   animation-delay: 0.2s;
 }
+@media (min-width: 48em) {
+  .IntroText {
+    max-width: 500px;
+  }
+}
 @media (min-width: 62em) {
   .IntroText {
-    padding: 6rem 0 0 6rem;
+    padding: 1rem;
+    max-width: 39vw;
+    font-size: 1.5rem;
   }
 }
 @media (min-width: 94em) {
   .IntroText {
     padding: 12rem 0 0 12rem;
-    font-size: 4rem;
     width: 36%;
     font-size: 1.5vw;
   }
@@ -291,7 +293,7 @@ button:hover {
   animation-delay: 0.2s;
   overflow: hidden;
 }
-@media (min-width: 48em) {
+@media (min-width: 62em) {
   .IntroImgContainer {
     width: 55%;
   }
@@ -311,7 +313,7 @@ button:hover {
     padding: 6rem;
   }
 }
-@media bigscrean {
+@media (min-width: 94em) {
   .ImgResized {
     height: auto;
     width: 56vw;
@@ -388,12 +390,13 @@ button:hover {
   }
 }
 .HeadingSmall.RightBlockHalfWidth {
-  margin: 6rem 2rem;
+  margin: 6rem 5rem;
 }
 @media (min-width: 62em) {
   .HeadingSmall.RightBlockHalfWidth {
     margin: 0;
     grid-column: 11/20;
+    margin: 6rem 2rem;
   }
 }
 @media (min-width: 80em) {
@@ -541,6 +544,12 @@ button:hover {
     margin: 2rem 5rem;
   }
 }
+@media (min-width: 48em) {
+  .OffCenter p {
+    margin: 2rem;
+    max-width: 100%;
+  }
+}
 @media (min-width: 80em) {
   .OffCenter {
     grid-column: 6/15;
@@ -561,6 +570,13 @@ button:hover {
 @media (min-width: 30em) {
   .FooterHeading {
     margin: 8rem 2rem 4rem 5rem;
+  }
+}
+@media (min-width: 62em) {
+  .FooterHeading {
+    grid-row: 255;
+    grid-column: 2/5;
+    margin: 0;
   }
 }
 @media (min-width: 80em) {
@@ -585,7 +601,7 @@ button:hover {
     margin: 6rem 5rem;
   }
 }
-@media (min-width: 80em) {
+@media (min-width: 62em) {
   .Contact {
     grid-row: 255;
     margin: 0;

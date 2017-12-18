@@ -44,19 +44,26 @@ button:hover {
 }
 .IntroText {
   padding: 2rem;
+  margin: 3rem;
   -webkit-animation-delay: 0.2s;
   -moz-animation-delay: 0.2s;
   animation-delay: 0.2s;
 }
+@media tablet {
+  .IntroText {
+    max-width: 500px;
+  }
+}
 @media laptop {
   .IntroText {
-    padding: 6rem 0 0 6rem;
+    padding: 1rem;;
+    max-width: 39vw;
+    font-size: 1.5rem;
   }
 }
 @media bigscreen {
   .IntroText {
     padding: 12rem 0 0 12rem;
-    font-size: 4rem;
     width: 36%;
     font-size: 1.5vw;
   }
@@ -82,7 +89,7 @@ button:hover {
   animation-delay: 0.2s;
   overflow: hidden;
 }
-@media tablet {
+@media laptop {
   .IntroImgContainer {
     width: 55%;
   }
@@ -102,7 +109,7 @@ button:hover {
   padding: 6rem;
   }
 }
-@media bigscrean {
+@media bigscreen {
   .ImgResized {
     height: auto;
     width: 56vw;

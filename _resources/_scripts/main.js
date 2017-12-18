@@ -1,4 +1,5 @@
-// make an array of each url
+// IntroImgs click-through
+
 var images = [
   '_img/Smiling1.jpg',
   '_img/BigEyes2.jpg',
@@ -9,9 +10,7 @@ var images = [
   '_img/Laughing7.jpg'
 ]
 $( document ).ready(function() {
-  // set a counter to zero
   var counter = 0;
-  // make function to set the bg image
   function renderImage() {
     $('.IntroImgs').css(
       {'background-image': 'url(' + images[counter] + ')'}
