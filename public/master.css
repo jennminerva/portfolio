@@ -343,7 +343,7 @@ button:hover {
     grid-column: 15/20;
   }
   .LeftBlockOneThird {
-    grid-column: 1/5;
+    grid-column: 2/6;
   }
   .RightBlockTwoThirds {
     grid-column: 7/20;
@@ -397,6 +397,7 @@ button:hover {
     margin: 0;
     grid-column: 11/20;
     margin: 6rem 2rem;
+    grid-row: 3;
   }
 }
 @media (min-width: 80em) {
@@ -415,7 +416,12 @@ button:hover {
   margin: 4rem 2rem 6rem 2rem;
 }
 .ImgProject1 {
-  grid-row: 35;
+  grid-row: 19;
+}
+@media (min-width: 80em) {
+  .ImgProject1 {
+    grid-row: 35;
+  }
 }
 @media (min-width: 94em) {
   .ImgProject1 {
@@ -424,7 +430,7 @@ button:hover {
 }
 @media (min-width: 62em) {
   .DescProject1 {
-    grid-row: 114;
+    grid-row: 29;
     margin: 0;
   }
 }
@@ -443,12 +449,16 @@ button:hover {
 .ImgContainerProject2 {
   padding: 1rem;
   background: #000;
-  grid-row: 105;
   display: inline-flex;
 }
 @media (min-width: 48em) {
   .ImgContainerProject2 {
     padding: 4rem;
+  }
+}
+@media (min-width: 62em) {
+  .ImgContainerProject2 {
+    grid-row: 69;
   }
 }
 @media (min-width: 94em) {
@@ -463,7 +473,7 @@ button:hover {
 }
 @media (min-width: 62em) {
   .DescProject2 {
-    grid-row: 113;
+    grid-row: 79;
     margin: 0;
   }
 }
@@ -480,7 +490,12 @@ button:hover {
   }
 }
 .ImgProject3 {
-  grid-row: 172;
+  grid-row: 116;
+}
+@media (min-width: 80em) {
+  .ImgProject3 {
+    grid-row: 172;
+  }
 }
 @media (min-width: 94em) {
   .ImgProject3 {
@@ -489,7 +504,7 @@ button:hover {
 }
 @media (min-width: 62em) {
   .DescProject3 {
-    grid-row: 187;
+    grid-row: 128;
     margin: 0;
   }
 }
@@ -521,6 +536,12 @@ button:hover {
     margin: 0 5rem;
   }
 }
+@media (min-width: 62em) {
+  .Divider {
+    width: 60rem;
+    grid-row: 167;
+  }
+}
 @media (min-width: 80em) {
   .Divider {
     width: 78rem;
@@ -536,34 +557,6 @@ button:hover {
     margin: 0 0 7rem 0;
   }
 }
-.OffCenter {
-  margin: 2rem;
-}
-@media (min-width: 30em) {
-  .OffCenter {
-    margin: 2rem 5rem;
-  }
-}
-@media (min-width: 48em) {
-  .OffCenter p {
-    margin: 2rem;
-    max-width: 100%;
-  }
-}
-@media (min-width: 80em) {
-  .OffCenter {
-    grid-column: 6/15;
-    grid-row: 253;
-    line-height: 200%;
-  }
-}
-@media (min-width: 94em) {
-  .OffCenter {
-    grid-column: 5/11;
-    grid-row: 416;
-    line-height: 200%;
-  }
-}
 .FooterHeading {
   margin: 8rem 2rem 4rem 2rem;
 }
@@ -574,7 +567,7 @@ button:hover {
 }
 @media (min-width: 62em) {
   .FooterHeading {
-    grid-row: 255;
+    grid-row: 172;
     grid-column: 2/5;
     margin: 0;
   }
@@ -593,6 +586,39 @@ button:hover {
     margin: 0;
   }
 }
+.OffCenter {
+  margin: 2rem;
+}
+@media (min-width: 30em) {
+  .OffCenter {
+    margin: 2rem 5rem;
+  }
+}
+@media (min-width: 48em) {
+  .OffCenter p {
+    margin: 2rem;
+    max-width: 100%;
+  }
+}
+@media (min-width: 62em) {
+  .OffCenter {
+    grid-column: 4/15;
+    grid-row: 170;
+  }
+}
+@media (min-width: 80em) {
+  .OffCenter {
+    grid-row: 253;
+    line-height: 200%;
+  }
+}
+@media (min-width: 94em) {
+  .OffCenter {
+    grid-column: 5/11;
+    grid-row: 416;
+    line-height: 200%;
+  }
+}
 .Contact {
   margin: 6rem 2rem;
 }
@@ -603,7 +629,7 @@ button:hover {
 }
 @media (min-width: 62em) {
   .Contact {
-    grid-row: 255;
+    grid-row: 171;
     margin: 0;
     padding: 0.5rem 0 0 0;
   }
