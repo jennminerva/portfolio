@@ -219,6 +219,7 @@ body {
   overflow-y: auto;
   overflow-x: hidden;
   margin: 0;
+  font-size: 10px;
 }
 img {
   max-width: 100%;
@@ -252,6 +253,7 @@ button:hover {
   -webkit-animation-delay: 0.2s;
   -moz-animation-delay: 0.2s;
   animation-delay: 0.2s;
+  font-size: 1.8rem;
 }
 @media (min-width: 48em) {
   .IntroText {
@@ -260,14 +262,14 @@ button:hover {
 }
 @media (min-width: 62em) {
   .IntroText {
-    padding: 1rem;
+    padding: 3rem;
     max-width: 39vw;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
   }
 }
 @media (min-width: 94em) {
   .IntroText {
-    padding: 12rem 0 0 12rem;
+    padding: 6rem 0 0 6rem;
     width: 36%;
     font-size: 1.5vw;
   }
@@ -390,7 +392,12 @@ button:hover {
   }
 }
 .HeadingSmall.RightBlockHalfWidth {
-  margin: 6rem 5rem;
+  margin: 6rem 2rem;
+}
+@media (min-width: 48em) {
+  .HeadingSmall.RightBlockHalfWidth {
+    margin: 6rem;
+  }
 }
 @media (min-width: 62em) {
   .HeadingSmall.RightBlockHalfWidth {
@@ -458,7 +465,7 @@ button:hover {
 }
 @media (min-width: 62em) {
   .ImgContainerProject2 {
-    grid-row: 69;
+    grid-row: 105;
   }
 }
 @media (min-width: 94em) {
@@ -629,7 +636,7 @@ button:hover {
 }
 @media (min-width: 62em) {
   .Contact {
-    grid-row: 171;
+    grid-row: 254;
     margin: 0;
     padding: 0.5rem 0 0 0;
   }
