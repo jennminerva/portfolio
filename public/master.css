@@ -220,6 +220,22 @@ body {
   overflow-x: hidden;
   margin: 0 0 5vh 0;
 }
+@media (min-width: 48em) {
+  body {
+    max-width: 600px;
+    padding: 5rem 0 0 7rem;
+  }
+}
+.Hidden {
+  display: none;
+  opacity: 0;
+}
+@media latop {
+  .Hidden {
+    display: block;
+    opacity: 1;
+  }
+}
 img {
   max-width: 100%;
   height: auto;
@@ -540,8 +556,6 @@ button:hover {
   flex-direction: row;
   justify-content: space-between;
 }
-@media (min-width: 62em) {
-}
 .Divider {
   height: 4px;
   background: #ffe3e2;
@@ -552,7 +566,7 @@ button:hover {
     margin: 0 5rem;
   }
 }
-@media (min-width: 62em) {
+@media (min-width: 48em) {
   .Divider {
     width: 60rem;
     grid-row: 167;
