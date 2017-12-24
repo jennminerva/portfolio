@@ -2,11 +2,11 @@ html {
   min-height: 100%;
 }
 * {
-  -webkit-tap-highlight-color: #000;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
   box-sizing: border-box;
-  }
+}
 body {
   height: 100%;
   overflow-y: auto;
@@ -35,69 +35,40 @@ img {
 }
 button {
   background: transparent;
-  border: 1px solid #000;
-  border-radius: 5px;
+  border: 1px solid #ff3431;
+  border-radius: 75px;
+  color: #ff3431;
   height: 4rem;
   font-size: 1rem;
-  padding: 1rem;
+  letter-spacing: .1em;
+  padding: 1rem 3rem;
+  text-transform: uppercase;
   cursor: pointer;
+  font-family: typeface-secondary;
 }
 button:hover {
-  background: #000;
-  color: #fff;
+  background: #ff3431
+  color: #ffe3e2;
   -webkit-transition: background-color 200ms ease-out;
+  -moz-transition: background-color 200ms ease-out;
   -o-transition: background-color 200ms ease-out;
   transition: background-color 200ms ease-out;
+}
+.op50 {
+  opacity: .5;
+}
+.op30 {
+  opacity: .3;
+}
+.AlignRight {
+  text-align: right;
+}
+.AlignCenter {
+  margin: 0 auto;
 }
 
 // Intro
 
-@media laptop {
-  .IntroContainer {
-    display: flex;
-    justify-content: space-between;
-  }
-}
-.IntroText {
-  padding: 2rem;
-  margin: 3rem;
-  -webkit-animation-delay: 0.2s;
-  -moz-animation-delay: 0.2s;
-  animation-delay: 0.2s;
-  font-size: 1.8rem;
-}
-@media tablet {
-  .IntroText {
-    max-width: 500px;
-  }
-}
-@media laptop {
-  .IntroText {
-    padding: 3rem;
-    max-width: 39vw;
-    font-size: 1.7rem;
-  }
-}
-@media bigscreen {
-  .IntroText {
-    padding: 6rem 0 0 6rem;
-    width: 36%;
-    font-size: 1.5vw;
-  }
-}
-.OffsetEmoji {
-  position: relative;
-  top: 2px;
-}
-.IntroImgs {
-  width: 100%;
-  padding-bottom: 100%;
-  background-size: 100%;
-  transition: transform 200ms ease-out;
-  cursor: pointer;
-}
-.IntroImgs:hover {
-  transform: scale(1.03);
 .Intro {
   padding: 2rem;
 }
@@ -121,27 +92,16 @@ button:hover {
     Display: none;
   }
 }
-.IntroImgContainer {
-  width: 100%;
-  -webkit-animation-delay: 0.2s;
-  -moz-animation-delay: 0.2s;
-  animation-delay: 0.2s;
-  overflow: hidden;
+.OffCenter {
+  margin: 2rem;
 }
 @media laptop {
-  .IntroImgContainer {
-    width: 55%;
+  .OffCenter {
+    grid-column: 5/11;
+    grid-row: 346;
+    line-height: 200%
   }
 }
-@media bigscreen {
-  .IntroImgContainer {
-    width: 57%;
-  }
-}
-.ImgContainer {
-  background: #000;
-  padding: 3rem;
- }
 .FooterHeading {
   margin: 6rem 2rem 4rem 2rem;
 }
@@ -155,14 +115,32 @@ button:hover {
   margin: 4rem 2rem;
 }
 @media laptop {
-  .ImgContainer {
-  background: #000;
-  padding: 6rem;
+  .Contact {
+    grid-column: 14/20;
+    grid-row: 346;
   }
 }
-@media bigscreen {
-  .ImgResized {
-    height: auto;
-    width: 56vw;
-  }
+.FooterSpace {
+  height: 2rem;
+  grid-row: 376;
 }
+.SmallEmoji {
+  font-size: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
