@@ -218,8 +218,7 @@ body {
   height: 100%;
   overflow-y: auto;
   overflow-x: hidden;
-  margin: 0;
-  font-size: 10px;
+  margin: 0 0 5vh 0;
 }
 img {
   max-width: 100%;
@@ -264,7 +263,7 @@ button:hover {
   .IntroText {
     padding: 3rem;
     max-width: 39vw;
-    font-size: 1.7rem;
+    font-size: 1.5vw;
   }
 }
 @media (min-width: 94em) {
@@ -465,7 +464,17 @@ button:hover {
 }
 @media (min-width: 62em) {
   .ImgContainerProject2 {
-    grid-row: 105;
+    grid-row: 69;
+  }
+}
+@media (min-width: 62em) {
+  .ImgContainerProject2 {
+    grid-row: 69;
+  }
+}
+@media (min-width: 80em) {
+  .ImgContainerProject2 {
+    grid-row: 107;
   }
 }
 @media (min-width: 94em) {
@@ -636,9 +645,14 @@ button:hover {
 }
 @media (min-width: 62em) {
   .Contact {
-    grid-row: 254;
+    grid-row: 171;
     margin: 0;
-    padding: 0.5rem 0 0 0;
+    padding: 1rem 0 0 0;
+  }
+}
+@media (min-width: 80em) {
+  .Contact {
+    grid-row: 254;
   }
 }
 @media (min-width: 94em) {
@@ -646,17 +660,4 @@ button:hover {
     grid-row: 417;
     margin: 0;
   }
-}
-.FooterSpace {
-  height: 2rem;
-  grid-row: 279;
-}
-@media (min-width: 94em) {
-  .FooterSpace {
-    height: 2rem;
-    grid-row: 436;
-  }
-}
-.SmallEmoji {
-  font-size: 1rem;
 }
