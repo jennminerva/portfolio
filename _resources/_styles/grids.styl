@@ -1,0 +1,213 @@
+@media laptop {
+  .Grid {
+    display: grid;
+    width: 100%;
+    grid-auto-columns: 5%;
+    grid-auto-rows: 1rem;
+    justify-items: start;
+    align-items: start;
+  }
+}
+@media laptop {
+  .LeftBlockHalfWidth {
+    grid-column: 2 / 10;
+  }
+  .RightBlockHalfWidth {
+    grid-column: 11 / 20;
+  }
+  .LeftBlockTwoThirds {
+    grid-column: 2 / 14;
+  }
+  .RightBlockOneThird {
+    grid-column: 15 / 20;
+  }
+  .LeftBlockOneThird {
+    grid-column: 2 / 6;
+  }
+  .RightBlockTwoThirds {
+    grid-column: 7 / 20;
+  }
+}
+@media desktop {
+  .LeftBlockHalfWidth {
+    grid-column: 2 / 9;
+  }
+  .RightBlockHalfWidth {
+    grid-column: 11 / 20;
+  }
+  .LeftBlockTwoThirds {
+    grid-column: 2 / 14;
+  }
+  .RightBlockOneThird {
+    grid-column: 16 / 20;
+  }
+  .LeftBlockOneThird {
+    grid-column: 2 / 5;
+  }
+  .RightBlockTwoThirds {
+    grid-column: 7 / 20;
+  }
+}
+@media bigscreen {
+  .LeftBlockHalfWidth {
+    grid-column: 2 / 9;
+  }
+  .RightBlockHalfWidth {
+    grid-column: 11 / 20;
+  }
+  .LeftBlockTwoThirds {
+    grid-column: 2 / 14;
+  }
+  .RightBlockOneThird {
+    grid-column: 16 / 20;
+  }
+  .LeftBlockOneThird {
+    grid-column: 2 / 5;
+  }
+  .RightBlockTwoThirds {
+    grid-column: 7 / 20;
+  }
+}
+.HeadingSmall.RightBlockHalfWidth {
+  margin: 6rem 2rem;
+}
+@media tablet {
+  .HeadingSmall.RightBlockHalfWidth {
+    margin: 6rem;
+  }
+}
+@media laptop {
+  .HeadingSmall.RightBlockHalfWidth {
+    margin: 0;
+    grid-column: 11 / 20;
+    margin: 6rem 2rem;
+    grid-row: 3;
+  }
+}
+@media desktop {
+  .HeadingSmall.RightBlockHalfWidth {
+    margin: 0;
+    grid-row: 17;
+  }
+}
+@media bigscreen {
+  .HeadingSmall.RightBlockHalfWidth {
+    margin: 0;
+    grid-row: 20;
+  }
+}
+.DescProject {
+  margin: 4rem 2rem 6rem 2rem;
+}
+.ImgProject1 {
+  grid-row: 19;
+}
+@media desktop {
+  .ImgProject1 {
+    grid-row: 35;
+  }
+}
+@media bigscreen {
+  .ImgProject1 {
+    grid-row: 42;
+  }
+}
+@media laptop {
+  .DescProject1 {
+    grid-row: 29;
+    margin: 0;
+  }
+}
+@media desktop {
+  .DescProject1 {
+    grid-row: 51;
+    margin: 0;
+  }
+}
+@media bigscreen {
+  .DescProject1 {
+    grid-row: 82;
+    margin: 0;
+  }
+}
+.ImgContainerProject2 {
+  padding: 1rem;
+  background: #000;
+  display: inline-flex;
+}
+@media tablet {
+  .ImgContainerProject2 {
+    padding: 4rem;
+  }
+}
+@media laptop {
+  .ImgContainerProject2 {
+    grid-row: 105;
+  }
+}
+@media bigscreen {
+  .ImgContainerProject2 {
+    grid-row: 166;
+  }
+}
+.ImgProject2 {
+  margin: 2rem;
+  justify-content: space-between
+  background: #000;
+}
+@media laptop {
+  .DescProject2 {
+    grid-row: 79;
+    margin: 0;
+  }
+}
+@media desktop {
+  .DescProject2 {
+    grid-row: 117;
+    margin: 0;
+  }
+}
+@media bigscreen {
+  .DescProject2 {
+    grid-row: 202;
+    margin: 0;
+  }
+}
+.ImgProject3 {
+  grid-row: 116;
+}
+@media desktop {
+  .ImgProject3 {
+    grid-row: 172;
+  }
+}
+@media bigscreen {
+  .ImgProject3 {
+    grid-row: 281;
+  }
+}
+@media laptop {
+  .DescProject3 {
+    grid-row: 128;
+    margin: 0;
+  }
+}
+@media desktop {
+  .DescProject3 {
+    grid-row: 187;
+    margin: 0;
+  }
+}
+@media bigscreen {
+  .DescProject3 {
+    grid-row: 320;
+  }
+}
+.FlexLinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+@media laptop {
+  flex-direction: column;
+}
