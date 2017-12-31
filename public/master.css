@@ -567,6 +567,9 @@ button:hover {
   justify-content: space-between;
 }
 @media (min-width: 64em) {
+  .FlexLinks {
+    flex-direction: column;
+  }
 }
 .Divider {
   height: 4px;
