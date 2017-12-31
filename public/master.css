@@ -39,7 +39,7 @@ p {
     margin: 2rem 2rem 2rem 4rem;
   }
 }
-@media (min-width: 62em) {
+@media (min-width: 64em) {
   p {
     margin: 0;
     max-width: 39vw;
@@ -83,7 +83,7 @@ h6 {
     margin: 0 0 4rem 4rem;
   }
 }
-@media (min-width: 62em) {
+@media (min-width: 64em) {
   .HeadingSmall {
     margin: 0 0 3rem 0;
   }
@@ -116,7 +116,7 @@ h6 {
 .ShowDesktop {
   display: none;
 }
-@media (min-width: 62em) {
+@media (min-width: 64em) {
   .ShowDesktop {
     display: inline;
   }
@@ -124,7 +124,7 @@ h6 {
 .ShowMobile {
   display: inline;
 }
-@media (min-width: 62em) {
+@media (min-width: 64em) {
   .ShowMobile {
     display: none;
   }
@@ -250,7 +250,7 @@ button:hover {
   -o-transition: background-color 200ms ease-out;
   transition: background-color 200ms ease-out;
 }
-@media (min-width: 62em) {
+@media (min-width: 64em) {
   .IntroContainer {
     display: flex;
     justify-content: space-between;
@@ -269,9 +269,9 @@ button:hover {
     max-width: 500px;
   }
 }
-@media (min-width: 62em) {
+@media (min-width: 64em) {
   .IntroText {
-    padding: 3rem;
+    padding: 2rem;
     max-width: 39vw;
     font-size: 1.7rem;
   }
@@ -303,7 +303,7 @@ button:hover {
 .OffsetEmoji {
   position: relative;
 }
-@media (min-width: 62em) {
+@media (min-width: 64em) {
 }
 .IntroImgContainer {
   width: 100%;
@@ -312,7 +312,7 @@ button:hover {
   animation-delay: 0.2s;
   overflow: hidden;
 }
-@media (min-width: 62em) {
+@media (min-width: 64em) {
   .IntroImgContainer {
     width: 55%;
   }
@@ -330,7 +330,7 @@ button:hover {
 .FooterHeading {
   margin: 6rem 2rem 4rem 2rem;
 }
-@media (min-width: 62em) {
+@media (min-width: 64em) {
   .FooterHeading {
     grid-row: 348;
     grid-column: 2/5;
@@ -339,7 +339,7 @@ button:hover {
 .Contact {
   margin: 4rem 2rem;
 }
-@media (min-width: 62em) {
+@media (min-width: 64em) {
   .ImgContainer {
     background: #000;
     padding: 6rem;
@@ -351,7 +351,7 @@ button:hover {
     width: 56vw;
   }
 }
-@media (min-width: 62em) {
+@media (min-width: 64em) {
   .Grid {
     display: grid;
     width: 100%;
@@ -361,7 +361,7 @@ button:hover {
     align-items: start;
   }
 }
-@media (min-width: 62em) {
+@media (min-width: 64em) {
   .LeftBlockHalfWidth {
     grid-column: 2/10;
   }
@@ -429,7 +429,7 @@ button:hover {
     margin: 6rem;
   }
 }
-@media (min-width: 62em) {
+@media (min-width: 64em) {
   .HeadingSmall.RightBlockHalfWidth {
     margin: 0;
     grid-column: 11/20;
@@ -465,9 +465,9 @@ button:hover {
     grid-row: 42;
   }
 }
-@media (min-width: 62em) {
+@media (min-width: 64em) {
   .DescProject1 {
-    grid-row: 29;
+    grid-row: 30;
     margin: 0;
   }
 }
@@ -493,7 +493,12 @@ button:hover {
     padding: 4rem;
   }
 }
-@media (min-width: 62em) {
+@media (min-width: 64em) {
+  .ImgContainerProject2 {
+    grid-row: 69;
+  }
+}
+@media (min-width: 80em) {
   .ImgContainerProject2 {
     grid-row: 105;
   }
@@ -508,7 +513,7 @@ button:hover {
   justify-content: space-between;
   background: #000;
 }
-@media (min-width: 62em) {
+@media (min-width: 64em) {
   .DescProject2 {
     grid-row: 79;
     margin: 0;
@@ -539,7 +544,7 @@ button:hover {
     grid-row: 281;
   }
 }
-@media (min-width: 62em) {
+@media (min-width: 64em) {
   .DescProject3 {
     grid-row: 128;
     margin: 0;
@@ -561,7 +566,7 @@ button:hover {
   flex-direction: row;
   justify-content: space-between;
 }
-@media (min-width: 62em) {
+@media (min-width: 64em) {
 }
 .Divider {
   height: 4px;
@@ -573,7 +578,7 @@ button:hover {
     margin: 0 5rem;
   }
 }
-@media (min-width: 62em) {
+@media (min-width: 64em) {
   .Divider {
     width: 60rem;
     grid-row: 167;
@@ -602,7 +607,7 @@ button:hover {
     margin: 8rem 2rem 4rem 5rem;
   }
 }
-@media (min-width: 62em) {
+@media (min-width: 64em) {
   .FooterHeading {
     grid-row: 172;
     grid-column: 2/5;
@@ -637,7 +642,7 @@ button:hover {
     max-width: 100%;
   }
 }
-@media (min-width: 62em) {
+@media (min-width: 64em) {
   .OffCenter {
     grid-column: 4/15;
     grid-row: 170;
@@ -664,9 +669,9 @@ button:hover {
     margin: 6rem 5rem;
   }
 }
-@media (min-width: 62em) {
+@media (min-width: 64em) {
   .Contact {
-    grid-row: 254;
+    grid-row: 172;
     margin: 0;
     padding: 0.5rem 0 0 0;
   }
