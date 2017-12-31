@@ -566,11 +566,6 @@ button:hover {
   flex-direction: row;
   justify-content: space-between;
 }
-@media (min-width: 64em) {
-  .FlexLinks {
-    flex-direction: column;
-  }
-}
 .Divider {
   height: 4px;
   background: #ffe3e2;
@@ -674,7 +669,7 @@ button:hover {
 }
 @media (min-width: 64em) {
   .Contact {
-    grid-row: 172;
+    grid-row: 171;
     margin: 0;
     padding: 0.5rem 0 0 0;
   }
