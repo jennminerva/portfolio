@@ -674,6 +674,13 @@ button:hover {
     padding: 0.5rem 0 0 0;
   }
 }
+@media (min-width: 80em) {
+  .Contact {
+    grid-row: 255;
+    margin: 0;
+    padding: 0.5rem 0 0 0;
+  }
+}
 @media (min-width: 94em) {
   .Contact {
     grid-row: 417;
