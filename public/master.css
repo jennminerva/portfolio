@@ -218,7 +218,7 @@ body {
   height: 100%;
   overflow-y: auto;
   overflow-x: hidden;
-  margin: 0 0 5vh 0;
+  margin: 0;
 }
 .Hidden {
   display: none;
@@ -273,7 +273,7 @@ button:hover {
   .IntroText {
     padding: 3rem;
     max-width: 39vw;
-    font-size: 1.5vw;
+    font-size: 1.7rem;
   }
 }
 @media (min-width: 94em) {
@@ -495,17 +495,7 @@ button:hover {
 }
 @media (min-width: 62em) {
   .ImgContainerProject2 {
-    grid-row: 69;
-  }
-}
-@media (min-width: 62em) {
-  .ImgContainerProject2 {
-    grid-row: 69;
-  }
-}
-@media (min-width: 80em) {
-  .ImgContainerProject2 {
-    grid-row: 107;
+    grid-row: 105;
   }
 }
 @media (min-width: 94em) {
@@ -676,14 +666,9 @@ button:hover {
 }
 @media (min-width: 62em) {
   .Contact {
-    grid-row: 171;
-    margin: 0;
-    padding: 1rem 0 0 0;
-  }
-}
-@media (min-width: 80em) {
-  .Contact {
     grid-row: 254;
+    margin: 0;
+    padding: 0.5rem 0 0 0;
   }
 }
 @media (min-width: 94em) {
@@ -691,4 +676,17 @@ button:hover {
     grid-row: 417;
     margin: 0;
   }
+}
+.FooterSpace {
+  height: 2rem;
+  grid-row: 279;
+}
+@media (min-width: 94em) {
+  .FooterSpace {
+    height: 2rem;
+    grid-row: 436;
+  }
+}
+.SmallEmoji {
+  font-size: 1rem;
 }
