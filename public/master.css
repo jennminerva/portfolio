@@ -539,7 +539,7 @@ button:hover {
 }
 @media (min-width: 120em) {
   .ImgContainerProject2 {
-    grid-row: 105;
+    grid-row: 135;
   }
 }
 .ImgProject2 {
@@ -573,7 +573,7 @@ button:hover {
 }
 @media (min-width: 120em) {
   .DescProject2 {
-    grid-row: 202;
+    grid-row: 160;
     margin: 0;
   }
 }
@@ -597,7 +597,7 @@ button:hover {
 }
 @media (min-width: 120em) {
   .ImgProject3 {
-    grid-row: 281;
+    grid-row: 223;
   }
 }
 @media (min-width: 64em) {
@@ -624,7 +624,7 @@ button:hover {
 }
 @media (min-width: 120em) {
   .DescProject3 {
-    grid-row: 320;
+    grid-row: 249;
   }
 }
 .FlexLinks {
@@ -670,7 +670,7 @@ button:hover {
 }
 @media (min-width: 120em) {
   .Divider {
-    grid-row: 409;
+    grid-row: 316;
   }
 }
 .FooterHeading {
@@ -709,7 +709,7 @@ button:hover {
 }
 @media (min-width: 120em) {
   .FooterHeading {
-    grid-row: 419;
+    grid-row: 325;
   }
 }
 .OffCenter {
@@ -752,7 +752,7 @@ button:hover {
 }
 @media (min-width: 120em) {
   .OffCenter {
-    grid-row: 306;
+    grid-row: 323;
   }
 }
 .Contact {
@@ -790,6 +790,6 @@ button:hover {
 }
 @media (min-width: 120em) {
   .Contact {
-    grid-row: 417;
+    grid-row: 325;
   }
 }
