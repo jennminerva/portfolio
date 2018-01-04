@@ -283,6 +283,13 @@ button:hover {
     font-size: 1.5vw;
   }
 }
+@media (min-width: 105em) {
+  .IntroText {
+    padding: 6rem 5rem 0 6rem;
+    width: 36%;
+    font-size: 1.5vw;
+  }
+}
 .OffsetEmoji {
   position: relative;
   top: 2px;
@@ -320,6 +327,11 @@ button:hover {
 @media (min-width: 94em) {
   .IntroImgContainer {
     width: 57%;
+  }
+}
+@media (min-width: 105em) {
+  .IntroImgContainer {
+    width: 67%;
   }
 }
 .ImgContainer {
@@ -477,9 +489,21 @@ button:hover {
     margin: 0;
   }
 }
-@media (min-width: 94em) {
+@media (min-width: 105em) {
   .DescProject1 {
-    grid-row: 82;
+    grid-row: 64;
+    margin: 0;
+  }
+}
+@media (min-width: 120em) {
+  .DescProject1 {
+    grid-row: 62;
+    margin: 0;
+  }
+}
+@media (min-width: 105em) {
+  .DescProject1 {
+    grid-row: 64;
     margin: 0;
   }
 }
@@ -508,6 +532,16 @@ button:hover {
     grid-row: 166;
   }
 }
+@media (min-width: 105em) {
+  .ImgContainerProject2 {
+    grid-row: 125;
+  }
+}
+@media (min-width: 120em) {
+  .ImgContainerProject2 {
+    grid-row: 105;
+  }
+}
 .ImgProject2 {
   margin: 2rem;
   justify-content: space-between;
@@ -531,6 +565,18 @@ button:hover {
     margin: 0;
   }
 }
+@media (min-width: 105em) {
+  .DescProject2 {
+    grid-row: 146;
+    margin: 0;
+  }
+}
+@media (min-width: 120em) {
+  .DescProject2 {
+    grid-row: 202;
+    margin: 0;
+  }
+}
 .ImgProject3 {
   grid-row: 116;
 }
@@ -540,6 +586,16 @@ button:hover {
   }
 }
 @media (min-width: 94em) {
+  .ImgProject3 {
+    grid-row: 281;
+  }
+}
+@media (min-width: 105em) {
+  .ImgProject3 {
+    grid-row: 205;
+  }
+}
+@media (min-width: 120em) {
   .ImgProject3 {
     grid-row: 281;
   }
@@ -557,6 +613,16 @@ button:hover {
   }
 }
 @media (min-width: 94em) {
+  .DescProject3 {
+    grid-row: 320;
+  }
+}
+@media (min-width: 105em) {
+  .DescProject3 {
+    grid-row: 227;
+  }
+}
+@media (min-width: 120em) {
   .DescProject3 {
     grid-row: 320;
   }
@@ -597,6 +663,16 @@ button:hover {
     margin: 0 0 7rem 0;
   }
 }
+@media (min-width: 105em) {
+  .Divider {
+    grid-row: 289;
+  }
+}
+@media (min-width: 120em) {
+  .Divider {
+    grid-row: 409;
+  }
+}
 .FooterHeading {
   margin: 8rem 2rem 4rem 2rem;
 }
@@ -624,6 +700,16 @@ button:hover {
     grid-row: 419;
     grid-column: 2/5;
     margin: 0;
+  }
+}
+@media (min-width: 105em) {
+  .FooterHeading {
+    grid-row: 298;
+  }
+}
+@media (min-width: 120em) {
+  .FooterHeading {
+    grid-row: 419;
   }
 }
 .OffCenter {
@@ -659,6 +745,16 @@ button:hover {
     line-height: 200%;
   }
 }
+@media (min-width: 105em) {
+  .OffCenter {
+    grid-row: 296;
+  }
+}
+@media (min-width: 120em) {
+  .OffCenter {
+    grid-row: 306;
+  }
+}
 .Contact {
   margin: 6rem 2rem;
 }
@@ -685,5 +781,15 @@ button:hover {
   .Contact {
     grid-row: 417;
     margin: 0;
+  }
+}
+@media (min-width: 105em) {
+  .Contact {
+    grid-row: 298;
+  }
+}
+@media (min-width: 120em) {
+  .Contact {
+    grid-row: 417;
   }
 }
