@@ -74,14 +74,9 @@ h6 {
 }
 .HeadingSmall {
   font-size: 1.9rem;
-  margin: 0 0 3rem 0;
+  margin: 10% 0 5% 5%;
   font-family: 'Calluna', serif;
   letter-spacing: 0.1rem;
-}
-@media (min-width: 30em) {
-  .HeadingSmall {
-    margin: 0 0 4rem 4rem;
-  }
 }
 @media (min-width: 64em) {
   .HeadingSmall {
@@ -106,6 +101,7 @@ h6 {
 }
 .SmallText {
   font-size: 1.5rem;
+  margin: 5%;
 }
 .AlignCenter {
   align-items: center;
@@ -342,13 +338,15 @@ button:hover {
     width: 67%;
   }
 }
-.TextRight {
-  position: relative;
-  left: 68%;
+@media (min-width: 64em) {
+  .TextRight {
+    position: relative;
+    left: 72%;
+  }
 }
 .Projects {
   width: 100%;
-  padding: 2.5% 5%;
+  padding: 2.5% 0;
 }
 @media (min-width: 64em) {
   .Projects {
@@ -395,42 +393,54 @@ button:hover {
   }
 }
 .Project2ImgContainer {
-  padding: 1rem;
+  padding: 5%;
   background: #000;
   display: inline-flex;
   justify-content: space-between;
 }
-@media (min-width: 48em) {
-  .Project2ImgContainer {
-    padding: 4rem;
-  }
-}
 .Project2Img {
   width: 30%;
 }
-.FlexOrderFirst {
-  order: 1;
-}
-.FlexOrderSecond {
-  order: 2;
+@media (min-width: 64em) {
+  .FlexOrderFirst {
+    order: 1;
+  }
+  .FlexOrderSecond {
+    order: 2;
+  }
 }
 .Divider {
   height: 4px;
   background: #ffe3e2;
-  width: 59%;
-  margin: 0 0 2rem 5%;
+  width: 90%;
+  margin: 0 5%;
+}
+@media (min-width: 64em) {
+  .Divider {
+    width: 59%;
+    margin: 0 0 2rem 5%;
+  }
 }
 .Row footer {
   padding-top: 5%;
 }
 .FooterInfo {
   display: flex;
-  padding: 0 0 0 5%;
-  width: 64%;
-  justify-content: space-between;
+  padding: 0;
+  flex-direction: column;
 }
-.Contact {
-  Position: relative;
-  top: -2rem;
-  width: 27%;
+@media (min-width: 64em) {
+  .FooterInfo {
+    justify-content: space-between;
+    flex-direction: row;
+    padding-left: 5%;
+    width: 64%;
+  }
+}
+@media (min-width: 64em) {
+  .Contact {
+    Position: relative;
+    top: -2rem;
+    width: 27%;
+  }
 }

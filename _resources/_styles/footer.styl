@@ -1,26 +1,36 @@
 .Divider {
   height: 4px;
   background: #FFE3E2;
-  width: 59%
-  margin: 0 0 2rem 5%;
+  width: 90%;
+  margin: 0 5%;
+}
+@media laptop {
+  .Divider {
+    width: 59%
+    margin: 0 0 2rem 5%;
+  }
 }
 .Row footer {
   padding-top: 5%
 
 }
-@media laptop {
-  .Row footer {
-
-  }
-}
 .FooterInfo {
   display: flex;
-  padding: 0 0 0 5%;
-  width: 64%;
-  justify-content: space-between;
+  padding: 0;
+  flex-direction: column;
 }
-.Contact {
-  Position: relative;
-  top: -2rem;
-  width: 27%
+@media laptop {
+  .FooterInfo {
+    justify-content: space-between;
+    flex-direction: row;
+    padding-left: 5%;
+    width: 64%;
+  }
+}
+@media laptop {
+  .Contact {
+    Position: relative;
+    top: -2rem;
+    width: 27%
+  }
 }

@@ -143,13 +143,15 @@ button:hover {
 
 // Projects
 
-.TextRight {
-  position: relative;
-  left: 68%;
+@media laptop {
+  .TextRight {
+    position: relative;
+    left: 72%;
+  }
 }
 .Projects {
   width: 100%;
-  padding: 2.5% 5%;
+  padding: 2.5% 0;
 }
 @media laptop {
   .Projects {
@@ -197,22 +199,20 @@ button:hover {
   }
 }
 .Project2ImgContainer {
-  padding: 1rem;
+  padding: 5%;
   background: #000;
   display: inline-flex;
   justify-content: space-between;
 }
-@media tablet {
-  .Project2ImgContainer {
-    padding: 4rem;
-  }
-}
 .Project2Img {
   width: 30%;
 }
-.FlexOrderFirst {
-  order: 1;
-}
-.FlexOrderSecond {
-  order: 2;
+
+@media laptop {
+  .FlexOrderFirst {
+    order: 1;
+  }
+  .FlexOrderSecond {
+    order: 2;
+  }
 }
