@@ -254,6 +254,7 @@ button:hover {
   .IntroContainer {
     display: flex;
     justify-content: space-between;
+    padding-bottom: 10%;
   }
 }
 .IntroText {
@@ -341,9 +342,17 @@ button:hover {
     width: 67%;
   }
 }
+.SectionHeading {
+  margin: 0 0 0 68%;
+}
 .Projects {
   width: 100%;
-  padding: 10% 5%;
+  padding: 2.5% 5%;
+}
+@media (min-width: 64em) {
+  .Projects {
+    padding: 0 5%;
+  }
 }
 .ProjectRow {
   width: 100%;
@@ -354,6 +363,7 @@ button:hover {
 }
 @media (min-width: 64em) {
   .ProjectRow {
+    padding: 10% 0;
     flex-direction: row;
     align-items: center;
   }
