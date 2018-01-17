@@ -103,6 +103,11 @@ h6 {
   font-size: 1.5rem;
   margin: 5%;
 }
+@media (min-width: 64em) {
+  .SmallText {
+    margin: 0;
+  }
+}
 .AlignCenter {
   align-items: center;
 }
@@ -421,7 +426,7 @@ button:hover {
     margin: 0 0 2rem 5%;
   }
 }
-.Row footer {
+.FooterRow {
   padding-top: 5%;
 }
 .FooterInfo {
