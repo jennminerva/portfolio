@@ -50,6 +50,7 @@ button:hover {
   .IntroContainer {
     display: flex;
     justify-content: space-between;
+    padding-bottom: 10%;
   }
 }
 .IntroText {
@@ -139,33 +140,79 @@ button:hover {
     width: 67%;
   }
 }
-.ImgContainer {
+
+// Projects
+
+@media laptop {
+  .TextRight {
+    position: relative;
+    left: 72%;
+  }
+}
+.Projects {
+  width: 100%;
+  padding: 2.5% 0;
+}
+@media laptop {
+  .Projects {
+    padding: 0 5%;
+  }
+}
+.Row {
+  width: 100%;
+  padding: 2.5% 0;
+  display: flex;
+  flex-direction: column;
+}
+@media laptop {
+  .Row {
+    padding: 10% 0;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+.ProjectImg {
   background: #000;
   padding: 3rem;
   min-height: 50px;
   // `min-height` fixes a bug in Firefox which caused the container height to be  shorter than the image inside
  }
-.FooterHeading {
-  margin: 6rem 2rem 4rem 2rem;
-}
 @media laptop {
-  .FooterHeading {
-    grid-row: 348;
-    grid-column: 2/5;
-  }
-}
-.Contact {
-  margin: 4rem 2rem;
-}
-@media laptop {
-  .ImgContainer {
-  background: #000;
-  padding: 6rem;
+  .ProjectImg {
+    background: #000;
+    padding: 6rem;
+    width: 65%;
   }
 }
 @media bigscreen {
   .ImgResized {
     height: auto;
     width: 56vw;
+  }
+}
+@media laptop {
+  .ProjectDesc {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+  }
+}
+.Project2ImgContainer {
+  padding: 5%;
+  background: #000;
+  display: inline-flex;
+  justify-content: space-between;
+}
+.Project2Img {
+  width: 30%;
+}
+
+@media laptop {
+  .FlexOrderFirst {
+    order: 1;
+  }
+  .FlexOrderSecond {
+    order: 2;
   }
 }
