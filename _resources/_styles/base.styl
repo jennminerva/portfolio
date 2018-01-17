@@ -142,8 +142,10 @@ button:hover {
 }
 
 // Projects
-.SectionHeading {
-  margin: 0 0 0 68%;
+
+.TextRight {
+  position: relative;
+  left: 68%;
 }
 .Projects {
   width: 100%;
@@ -154,18 +156,18 @@ button:hover {
     padding: 0 5%;
   }
 }
-.ProjectRow {
+.Row {
   width: 100%;
   padding: 2.5% 0;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 @media laptop {
-  .ProjectRow {
+  .Row {
     padding: 10% 0;
-     flex-direction: row;
-     align-items: center;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
   }
 }
 .ProjectImg {
@@ -191,7 +193,7 @@ button:hover {
   .ProjectDesc {
     display: flex;
     flex-direction: column;
-    width: 30%;
+    width: 25%;
   }
 }
 .Project2ImgContainer {
