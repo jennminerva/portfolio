@@ -341,15 +341,33 @@ button:hover {
     width: 67%;
   }
 }
-.ImgContainer {
+.Projects {
+  width: 100%;
+  padding: 2.5% 5%;
+}
+.ProjectRow {
+  width: 100%;
+  padding: 2.5% 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+@media (min-width: 64em) {
+  .ProjectRow {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+.ProjectImg {
   background: #000;
   padding: 3rem;
   min-height: 50px;
 }
 @media (min-width: 64em) {
-  .ImgContainer {
+  .ProjectImg {
     background: #000;
     padding: 6rem;
+    width: 65%;
   }
 }
 @media (min-width: 94em) {
@@ -358,15 +376,32 @@ button:hover {
     width: 56vw;
   }
 }
-.ImgContainerProject2 {
+@media (min-width: 64em) {
+  .ProjectDesc {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+  }
+}
+.Project2ImgContainer {
   padding: 1rem;
   background: #000;
   display: inline-flex;
+  justify-content: space-between;
 }
 @media (min-width: 48em) {
-  .ImgContainerProject2 {
+  .Project2ImgContainer {
     padding: 4rem;
   }
+}
+.Project2Img {
+  width: 30%;
+}
+.FlexOrderFirst {
+  order: 1;
+}
+.FlexOrderSecond {
+  order: 2;
 }
 .Divider {
   height: 4px;
