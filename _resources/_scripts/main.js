@@ -27,7 +27,7 @@ $( document ).ready(function() {
   });
 
   for (i = 0; i < images.length; i++) {
-    $('.Hidden').append(
+    $('.hidden').append(
       '<img src="' + images[i] + '"/>'
     );
   }
